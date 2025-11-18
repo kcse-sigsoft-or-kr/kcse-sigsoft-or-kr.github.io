@@ -3,12 +3,369 @@
 <head>
   <meta charset="UTF-8" />
   <title>한국 소프트웨어공학 학술대회</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: radial-gradient(circle at top, #f3f7ff 0, #e4ecff 40%, #dde4f3 100%);
+      color: #1f2933;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      padding: 40px 16px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 960px;
+      background: #ffffffdd;
+      backdrop-filter: blur(10px);
+      border-radius: 18px;
+      box-shadow: 0 18px 40px rgba(15, 23, 42, 0.12);
+      padding: 32px 28px 36px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 24px;
+      border-bottom: 1px solid #e5e7eb;
+      padding-bottom: 18px;
+    }
+
+    header h1 {
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    header h1 a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .tagline {
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+
+    .year-section-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      margin-bottom: 12px;
+      color: #111827;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .year-section-title span {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: #6b7280;
+    }
+
+    .year-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 14px;
+    }
+
+    .year-card {
+      background: #f9fafb;
+      border-radius: 14px;
+      padding: 14px 14px 12px;
+      border: 1px solid #e5e7eb;
+      transition: transform 0.14s ease, box-shadow 0.14s ease, border-color 0.14s ease, background 0.14s ease;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .year-card::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(circle at top left, rgba(59, 130, 246, 0.15), transparent 55%);
+      opacity: 0;
+      transition: opacity 0.14s ease;
+      pointer-events: none;
+    }
+
+    .year-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(15, 23, 42, 0.14);
+      border-color: #c7d2fe;
+      background: #fdfefe;
+    }
+
+    .year-card:hover::before {
+      opacity: 1;
+    }
+
+    .year-main {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 6px;
+      margin-bottom: 4px;
+    }
+
+    .year {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #111827;
+    }
+
+    .year-badge {
+      font-size: 0.7rem;
+      padding: 3px 8px;
+      border-radius: 999px;
+      background: #eef2ff;
+      color: #4338ca;
+      font-weight: 600;
+      white-space: nowrap;
+    }
+
+    .year-theme {
+      font-size: 0.8rem;
+      color: #4b5563;
+      margin-bottom: 4px;
+      min-height: 1.6em;
+    }
+
+    .year-location {
+      font-size: 0.78rem;
+      color: #6b7280;
+      margin-bottom: 8px;
+    }
+
+    .year-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      font-size: 0.78rem;
+      font-weight: 500;
+      text-decoration: none;
+      color: #2563eb;
+      background: #e0ecff;
+      padding: 4px 9px;
+      border-radius: 999px;
+      transition: background 0.14s ease, color 0.14s ease;
+    }
+
+    .year-link span.icon {
+      font-size: 0.85em;
+    }
+
+    .year-card:hover .year-link {
+      background: #1d4ed8;
+      color: #e5e7eb;
+    }
+
+    .note {
+      margin-top: 18px;
+      font-size: 0.8rem;
+      color: #9ca3af;
+      line-height: 1.4;
+    }
+
+    @media (max-width: 640px) {
+      .page {
+        padding: 20px 16px 22px;
+      }
+      header {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      header h1 {
+        font-size: 1.3rem;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1><a href=2026>한국 소프트웨어공학 학술대회</a></h1>
-  <ul>
-    <li><a href="2026/" target="_blank">2026</a></li>
-    <li><a href="https://sigsoft.or.kr/kcse2025/" target="_blank">2025</a></li>
-  </ul>
-</body>
-</html>
+  <div class="page">
+    <header>
+      <h1><a href="2026/">한국 소프트웨어공학 학술대회</a></h1>
+      <p class="tagline">Korea Conference on Software Engineering (KCSE) 연도별 정보</p>
+    </header>
+
+    <!-- 2026: 로컬(또는 추후 생성될) 페이지 -->
+    <section style="margin-bottom: 26px;">
+      <div class="year-section-title">
+        2026
+        <span>예정</span>
+      </div>
+      <div class="year-grid">
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2026</div>
+            <div class="year-badge">준비 중</div>
+          </div>
+          <p class="year-theme">향후 공지될 KCSE 2026 공식 정보</p>
+          <p class="year-location">장소·주제는 확정 후 업데이트 예정</p>
+          <a class="year-link" href="2026/" target="_blank" rel="noopener">
+            로컬 페이지 열기 <span class="icon">↗</span>
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- 2025 ~ 2010 -->
+    <section>
+      <div class="year-section-title">
+        2025 – 2010
+        <span>공식 KCSE 페이지로 연결</span>
+      </div>
+
+      <div class="year-grid">
+        <!-- 2025 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2025</div>
+            <div class="year-badge">제27회</div>
+          </div>
+          <p class="year-theme">지능형 개발 기술과 소프트웨어 공학의 미래</p>
+          <p class="year-location">강원도 평창군 한화리조트 평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2025/" target="_blank" rel="noopener">
+            KCSE 2025 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2024 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2024</div>
+            <div class="year-badge">제26회</div>
+          </div>
+          <p class="year-theme">거대 인공지능과 소프트웨어공학 기술</p>
+          <p class="year-location">강원도 휘닉스 평창 한화리조트</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2024/" target="_blank" rel="noopener">
+            KCSE 2024 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2023 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2023</div>
+            <div class="year-badge">제25회</div>
+          </div>
+          <p class="year-theme">건강하고 안전한 사회를 위한 소프트웨어공학 기술</p>
+          <p class="year-location">강원도 휘닉스 평창 한화리조트</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2023/" target="_blank" rel="noopener">
+            KCSE 2023 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2022 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2022</div>
+            <div class="year-badge">제24회</div>
+          </div>
+          <p class="year-theme">신뢰할 수 있는 인공지능을 위한 소프트웨어공학 기술</p>
+          <p class="year-location">오프라인 중심·온라인 병행 (장소: KCSE 2022 페이지 참고)</p>
+          <a class="year-link" href="https://sigsoft.or.kr/KCSE2022/" target="_blank" rel="noopener">
+            KCSE 2022 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2021 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2021</div>
+            <div class="year-badge">제23회</div>
+          </div>
+          <p class="year-theme">비대면 시대를 지원하는 소프트웨어공학 기술</p>
+          <p class="year-location">온라인 중심 (일부 세션: 서울 오프라인 진행)</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2021/" target="_blank" rel="noopener">
+            KCSE 2021 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2020 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2020</div>
+            <div class="year-badge">제22회</div>
+          </div>
+          <p class="year-theme">AI를 완성하는 소프트웨어공학 기술</p>
+          <p class="year-location">강원도 평창 한화리조트 (휘닉스파크점)</p>
+          <a class="year-link" href="https://sigsoft.or.kr/KCSE2020/" target="_blank" rel="noopener">
+            KCSE 2020 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2019 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2019</div>
+            <div class="year-badge">제21회</div>
+          </div>
+          <p class="year-theme">초연결·초지능·초융합을 위한 소프트웨어공학 기술</p>
+          <p class="year-location">강원도 평창 한화리조트 (휘닉스파크점)</p>
+          <a class="year-link" href="https://www.sigsoft.or.kr/KCSE2019/" target="_blank" rel="noopener">
+            KCSE 2019 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2018 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2018</div>
+            <div class="year-badge">제20회</div>
+          </div>
+          <p class="year-theme">지능정보사회를 위한 소프트웨어공학 기술</p>
+          <p class="year-location">강원도 평창 한화리조트 (휘닉스파크점)</p>
+          <a class="year-link" href="https://www.sigsoft.or.kr/KCSE2018/" target="_blank" rel="noopener">
+            KCSE 2018 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2017 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2017</div>
+            <div class="year-badge">제19회</div>
+          </div>
+          <p class="year-theme">제4차 산업혁명 시대의 소프트웨어공학 기술</p>
+          <p class="year-location">강원도 평창 한화리조트 (휘닉스파크점)</p>
+          <a class="year-link" href="https://www.sigsoft.or.kr/KCSE-2017/" target="_blank" rel="noopener">
+            KCSE 2017 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2016 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2016</div>
+            <div class="year-badge">제18회</div>
+          </div>
+          <p class="year-theme">KCSE 2016 논문집 및 프로그램</p>
+          <p class="year-location">장소·주제: KCSE 2016 페이지에서 확인</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2016/" target="_blank" rel="noopener">
+            KCSE 2016 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
+
+        <!-- 2015 -->
+        <article class="year-card">
+          <div class="year-main">
+            <div class="year">2015</div>
+            <div class="year-badge">제17회</div>
+          </div>
+          <p class="year-theme">KCSE 2015 논문집 및 튜토리얼 정보</p>
+          <p class="year-location">장소·주제: KCSE 2015 페이지에서 확인</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2015/" target="_blank" rel="noopener">
+            KCSE 2015 페이지 <span class="icon">↗</span>
+          </a>
+        </article>
