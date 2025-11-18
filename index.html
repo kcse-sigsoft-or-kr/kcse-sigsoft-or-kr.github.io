@@ -1,514 +1,422 @@
 <!DOCTYPE html>
 <html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>한국 소프트웨어공학 학술대회</title>
-    <style>
-      * {
-        box-sizing: border-box;
-        margin: 0;
-        padding: 0;
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>한국 소프트웨어공학 학술대회</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+      background: #f5f5f5;
+      color: #111;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      padding: 32px 12px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 900px;
+      background: #fff;
+      border: 1px solid #000;
+      padding: 28px 24px 32px;
+      border-radius: 10px;
+    }
+
+    /* HEADER */
+    header {
+      border-bottom: 1px solid #000;
+      padding-bottom: 12px;
+      margin-bottom: 20px;
+    }
+
+    .header-main {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      margin-bottom: 4px;
+    }
+
+    .header-logo {
+      width: 50px;
+      height: auto;
+      object-fit: contain;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 700;
+    }
+
+    header h1 a {
+      color: #000;
+      text-decoration: none;
+    }
+
+    .tagline {
+      font-size: 0.85rem;
+      color: #555;
+    }
+
+    /* FILTER BAR */
+    .filter-bar {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 20px;
+      align-items: center;
+    }
+
+    .filter-input,
+    .filter-select {
+      border: 1px solid #000;
+      padding: 4px 8px;
+      font-size: 0.85rem;
+      line-height: 1.2;
+      background: #fff;
+      border-radius: 4px;
+      height: 30px;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+    }
+
+    .filter-input { flex: 1 1 180px; }
+    .filter-select { flex: 0 0 120px; }
+
+    /* TITLES */
+    .year-section-title {
+      font-size: 1.05rem;
+      font-weight: 600;
+      margin: 18px 0 10px;
+      display: flex;
+      gap: 6px;
+    }
+    .year-section-title span {
+      font-size: 0.8rem;
+      color: #555;
+    }
+
+    /* GRID */
+    .year-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 12px;
+    }
+
+    /* CARDS */
+    .year-card {
+      border: 1px solid #000;
+      border-radius: 8px;
+      padding: 12px;
+      transition: background 0.12s ease;
+      background: #fff;
+    }
+    .year-card:hover {
+      background: #fafafa;
+    }
+
+    .year-main {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 6px;
+    }
+    .year {
+      font-size: 1.2rem;
+      font-weight: 700;
+    }
+    .year-badge {
+      font-size: 0.7rem;
+      padding: 2px 6px;
+      border: 1px solid #000;
+      border-radius: 4px;
+    }
+
+    .year-theme {
+      font-size: 0.8rem;
+      color: #222;
+      margin-bottom: 4px;
+    }
+
+    .year-location {
+      font-size: 0.75rem;
+      color: #444;
+      margin-bottom: 8px;
+    }
+
+    .year-link {
+      display: inline-block;
+      padding: 4px 7px;
+      font-size: 0.78rem;
+      border: 1px solid #000;
+      border-radius: 4px;
+      color: #000;
+      text-decoration: none;
+      background: #fff;
+    }
+    .year-link:hover {
+      background: #eaeaea;
+    }
+
+    /* NO RESULT */
+    .no-result {
+      margin-top: 12px;
+      font-size: 0.85rem;
+      color: #888;
+      display: none;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      .page { padding: 20px 16px; }
+      .year-grid { grid-template-columns: 1fr; }
+    }
+
+    @media (max-width: 480px) {
+      .header-main {
+        flex-direction: column;     /* ← 모바일에서 세로 배치 */
+        align-items: flex-start;
       }
 
-      body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui,
-          sans-serif;
-        background: #f5f5f5;
-        color: #111;
-        min-height: 100vh;
-        display: flex;
-        justify-content: center;
-        padding: 32px 12px;
+      .header-logo {
+        width: 36px;               /* 로고 크기도 줄이기 */
       }
 
-      .page {
-        width: 100%;
-        max-width: 900px;
-        background: #fff;
-        border: 1px solid #000;
-        padding: 28px 24px 32px;
-        border-radius: 10px;
-      }
-
-      /* HEADER */
-      header {
-        border-bottom: 1px solid #000;
-        padding-bottom: 12px;
-        margin-bottom: 20px;
-      }
       header h1 {
-        font-size: 1.5rem;
-        font-weight: 700;
-      }
-      header h1 a {
-        color: #000;
-        text-decoration: none;
-      }
-      .tagline {
-        font-size: 0.85rem;
-        color: #555;
-        margin-top: 4px;
+        font-size: 1.3rem;         /* 제목 폰트도 살짝 축소 */
       }
 
-      /* FILTER BAR */
       .filter-bar {
-        display: flex;
-        flex-wrap: wrap;
-        gap: 8px;
-        margin-bottom: 20px;
+        flex-direction: column;
         align-items: center;
-      }
-
-      .filter-input,
-      .filter-select {
-        border: 1px solid #000;
-        padding: 6px 10px;
-        font-size: 0.85rem;
-        background: #fff;
-        border-radius: 4px;
-      }
-
-      .filter-input {
-        flex: 1 1 180px;
-      }
-      .filter-select {
-        flex: 0 0 120px;
-      }
-
-      /* TITLES */
-      .year-section-title {
-        font-size: 1.05rem;
-        font-weight: 600;
-        margin: 18px 0 10px;
-        display: flex;
         gap: 6px;
       }
-      .year-section-title span {
-        font-size: 0.8rem;
-        color: #555;
-      }
 
-      /* GRID */
-      .year-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
-        gap: 12px;
-      }
-
-      /* CARDS */
-      .year-card {
-        border: 1px solid #000;
-        border-radius: 8px;
-        padding: 12px;
-        transition: background 0.12s ease;
-        background: #fff;
-      }
-      .year-card:hover {
-        background: #fafafa;
-      }
-
-      .year-main {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 6px;
-      }
-      .year {
-        font-size: 1.2rem;
-        font-weight: 700;
-      }
-      .year-badge {
-        font-size: 0.7rem;
-        padding: 2px 6px;
-        border: 1px solid #000;
-        border-radius: 4px;
-      }
-
-      .year-theme {
-        font-size: 0.8rem;
-        color: #222;
-        margin-bottom: 4px;
-      }
-
-      .year-location {
-        font-size: 0.75rem;
-        color: #444;
-        margin-bottom: 8px;
-      }
-
-      .year-link {
-        display: inline-block;
-        padding: 4px 7px;
-        font-size: 0.78rem;
-        border: 1px solid #000;
-        border-radius: 4px;
-        color: #000;
-        text-decoration: none;
-        background: #fff;
-      }
-      .year-link:hover {
-        background: #eaeaea;
-      }
-
-      /* NO RESULT */
-      .no-result {
-        margin-top: 12px;
-        font-size: 0.85rem;
-        color: #888;
-        display: none;
-      }
-
-      /* FILTER INPUT & SELECT 기본 스타일 개선 */
       .filter-input,
       .filter-select {
-        border: 1px solid #000;
-        padding: 4px 8px; /* 높이 줄임 */
-        font-size: 0.85rem;
-        line-height: 1.2; /* 높이 과다 방지 */
-        background: #fff;
-        border-radius: 4px;
-        height: 30px; /* 명시적으로 얇게 설정 */
-        -webkit-appearance: none; /* iOS 기본 스타일 제거 */
-        -moz-appearance: none;
-        appearance: none;
+        width: 70%;
+        max-width: 260px;
       }
+    }
+  </style>
+</head>
 
-      /* 모바일에서도 동일한 높이 유지 */
-      @media (max-width: 480px) {
-        .filter-input,
-        .filter-select {
-          width: 70%;
-          max-width: 260px;
-          height: 30px; /* 모바일에서도 고정 */
-          padding: 4px 8px;
-        }
-      }
-    </style>
-  </head>
-
-  <body>
-    <div class="page">
-      <header>
-        <div style="display: flex; align-items: center; gap: 10px">
-          <img
-            src="https://sigsoft.or.kr/wp-content/uploads/2016/11/cropped-SES_logo_2014_wobg-e1481959667547.png"
-            alt="KCSE Logo"
-            class="header-logo"
-          />
-          <h1><a href="2026/">한국 소프트웨어공학 학술대회</a></h1>
-        </div>
-        <p class="tagline">Korea Conference on Software Engineering (KCSE)</p>
-      </header>
-
-      <!-- FILTER BAR -->
-      <div class="filter-bar">
-        <input
-          type="text"
-          id="yearSearch"
-          class="filter-input"
-          placeholder="검색 (예: 2023, 인공지능, 평창)"
-        />
-        <select id="yearRange" class="filter-select">
-          <option value="all">전체 연도</option>
-          <option value="2020s">2020년대</option>
-          <option value="2010s">2010년대</option>
-        </select>
+<body>
+  <div class="page">
+    <header>
+      <div class="header-main">
+        <img
+          src="https://sigsoft.or.kr/wp-content/uploads/2016/11/cropped-SES_logo_2014_wobg-e1481959667547.png"
+          alt="KCSE Logo"
+          class="header-logo"
+        >
+        <h1><a href="2026/">한국 소프트웨어공학 학술대회</a></h1>
       </div>
+      <p class="tagline">Korea Conference on Software Engineering (KCSE)</p>
+    </header>
 
-      <!-- 2026 -->
-      <section>
-        <div class="year-section-title">2026 <span>예정</span></div>
-
-        <div class="year-grid">
-          <article class="year-card" data-year="2026">
-            <div class="year-main">
-              <div class="year">2026</div>
-              <div class="year-badge">준비</div>
-            </div>
-            <p class="year-theme">향후 공지 예정</p>
-            <p class="year-location">장소·주제 미정</p>
-            <a class="year-link" href="2026/" target="_blank">자세히 보기</a>
-          </article>
-        </div>
-      </section>
-
-      <!-- 2025 ~ 2012 -->
-      <section>
-        <div class="year-section-title">
-          2025 – 2012 <span>공식 페이지 링크</span>
-        </div>
-
-        <div class="year-grid" id="yearGrid">
-          <!-- 2025 -->
-          <article class="year-card" data-year="2025">
-            <div class="year-main">
-              <div class="year">2025</div>
-              <div class="year-badge">27회</div>
-            </div>
-            <p class="year-theme">지능형 개발 기술과 소프트웨어공학</p>
-            <p class="year-location">강원도 평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse2025/"
-              target="_blank"
-              >KCSE 2025</a
-            >
-          </article>
-
-          <!-- 2024 -->
-          <article class="year-card" data-year="2024">
-            <div class="year-main">
-              <div class="year">2024</div>
-              <div class="year-badge">26회</div>
-            </div>
-            <p class="year-theme">거대 인공지능과 소프트웨어공학</p>
-            <p class="year-location">휘닉스 평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse2024/"
-              target="_blank"
-              >KCSE 2024</a
-            >
-          </article>
-
-          <!-- 2023 -->
-          <article class="year-card" data-year="2023">
-            <div class="year-main">
-              <div class="year">2023</div>
-              <div class="year-badge">25회</div>
-            </div>
-            <p class="year-theme">안전한 사회를 위한 SW공학</p>
-            <p class="year-location">휘닉스 평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse2023/"
-              target="_blank"
-              >KCSE 2023</a
-            >
-          </article>
-
-          <!-- 2022 -->
-          <article class="year-card" data-year="2022">
-            <div class="year-main">
-              <div class="year">2022</div>
-              <div class="year-badge">24회</div>
-            </div>
-            <p class="year-theme">신뢰할 수 있는 인공지능</p>
-            <p class="year-location">온·오프라인 병행</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/KCSE2022/"
-              target="_blank"
-              >KCSE 2022</a
-            >
-          </article>
-
-          <!-- 2021 -->
-          <article class="year-card" data-year="2021">
-            <div class="year-main">
-              <div class="year">2021</div>
-              <div class="year-badge">23회</div>
-            </div>
-            <p class="year-theme">비대면 시대 SW공학</p>
-            <p class="year-location">온라인</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse2021/"
-              target="_blank"
-              >KCSE 2021</a
-            >
-          </article>
-
-          <!-- 2020 -->
-          <article class="year-card" data-year="2020">
-            <div class="year-main">
-              <div class="year">2020</div>
-              <div class="year-badge">22회</div>
-            </div>
-            <p class="year-theme">AI를 완성하는 SW공학</p>
-            <p class="year-location">강원도 평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/KCSE2020/"
-              target="_blank"
-              >KCSE 2020</a
-            >
-          </article>
-
-          <!-- 2019 -->
-          <article class="year-card" data-year="2019">
-            <div class="year-main">
-              <div class="year">2019</div>
-              <div class="year-badge">21회</div>
-            </div>
-            <p class="year-theme">초연결·초지능 SW공학</p>
-            <p class="year-location">평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse2019/"
-              target="_blank"
-              >KCSE 2019</a
-            >
-          </article>
-
-          <!-- 2018 -->
-          <article class="year-card" data-year="2018">
-            <div class="year-main">
-              <div class="year">2018</div>
-              <div class="year-badge">20회</div>
-            </div>
-            <p class="year-theme">지능정보사회 SW공학</p>
-            <p class="year-location">평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse2018/"
-              target="_blank"
-              >KCSE 2018</a
-            >
-          </article>
-
-          <!-- 2017 -->
-          <article class="year-card" data-year="2017">
-            <div class="year-main">
-              <div class="year">2017</div>
-              <div class="year-badge">19회</div>
-            </div>
-            <p class="year-theme">4차 산업혁명과 SW공학</p>
-            <p class="year-location">평창</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse-2017/"
-              target="_blank"
-              >KCSE 2017</a
-            >
-          </article>
-
-          <!-- 2016 -->
-          <article class="year-card" data-year="2016">
-            <div class="year-main">
-              <div class="year">2016</div>
-              <div class="year-badge">18회</div>
-            </div>
-            <p class="year-theme">KCSE 2016 논문집</p>
-            <p class="year-location">공식 페이지 참고</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse-2016/"
-              target="_blank"
-              >KCSE 2016</a
-            >
-          </article>
-
-          <!-- 2015 -->
-          <article class="year-card" data-year="2015">
-            <div class="year-main">
-              <div class="year">2015</div>
-              <div class="year-badge">17회</div>
-            </div>
-            <p class="year-theme">KCSE 2015 논문집</p>
-            <p class="year-location">공식 페이지 참고</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse-2015/"
-              target="_blank"
-              >KCSE 2015</a
-            >
-          </article>
-
-          <!-- 2014 -->
-          <article class="year-card" data-year="2014">
-            <div class="year-main">
-              <div class="year">2014</div>
-              <div class="year-badge">16회</div>
-            </div>
-            <p class="year-theme">KCSE 2014 논문집</p>
-            <p class="year-location">공식 페이지 참고</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse-2014/"
-              target="_blank"
-              >KCSE 2014</a
-            >
-          </article>
-
-          <!-- 2013 -->
-          <article class="year-card" data-year="2013">
-            <div class="year-main">
-              <div class="year">2013</div>
-              <div class="year-badge">15회</div>
-            </div>
-            <p class="year-theme">KCSE 2013 자료</p>
-            <p class="year-location">공식 페이지 참고</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse-2013/"
-              target="_blank"
-              >KCSE 2013</a
-            >
-          </article>
-
-          <!-- 2012 -->
-          <article class="year-card" data-year="2012">
-            <div class="year-main">
-              <div class="year">2012</div>
-              <div class="year-badge">14회</div>
-            </div>
-            <p class="year-theme">KCSE 2012 자료</p>
-            <p class="year-location">공식 페이지 참고</p>
-            <a
-              class="year-link"
-              href="https://sigsoft.or.kr/kcse-2012/"
-              target="_blank"
-              >KCSE 2012</a
-            >
-          </article>
-        </div>
-
-        <p id="noResult" class="no-result">일치하는 학술대회가 없습니다.</p>
-      </section>
+    <!-- 필터 바 -->
+    <div class="filter-bar">
+      <input
+        type="text"
+        id="yearSearch"
+        class="filter-input"
+        placeholder="검색 (예: 2023, 인공지능, 평창)"
+      />
+      <select id="yearRange" class="filter-select">
+        <option value="all">전체 연도</option>
+        <option value="2020s">2020년대</option>
+        <option value="2010s">2010년대</option>
+      </select>
     </div>
 
-    <script>
-      (function () {
-        const searchInput = document.getElementById("yearSearch");
-        const yearRange = document.getElementById("yearRange");
-        const cards = Array.from(
-          document.querySelectorAll(".year-card[data-year]")
-        );
-        const noResult = document.getElementById("noResult");
+    <!-- 2026 -->
+    <section>
+      <div class="year-section-title">
+        2026 <span>예정</span>
+      </div>
 
-        function matchesDecade(year, range) {
-          if (range === "all") return true;
-          if (range === "2020s") return year >= 2020;
-          if (range === "2010s") return year >= 2010 && year < 2020;
-          return true;
-        }
+      <div class="year-grid">
+        <article class="year-card" data-year="2026">
+          <div class="year-main">
+            <div class="year">2026</div>
+            <div class="year-badge">준비</div>
+          </div>
+          <p class="year-theme">향후 공지 예정</p>
+          <p class="year-location">장소·주제 미정</p>
+          <a class="year-link" href="2026/" target="_blank">자세히 보기</a>
+        </article>
+      </div>
+    </section>
 
-        function applyFilter() {
-          const q = (searchInput.value || "").toLowerCase();
-          const range = yearRange.value;
-          let visible = 0;
+    <!-- 2025 ~ 2012 -->
+    <section>
+      <div class="year-section-title">
+        2025 – 2012 <span>공식 페이지 링크</span>
+      </div>
 
-          cards.forEach((card) => {
-            const year = parseInt(card.dataset.year, 10);
-            const text = card.textContent.toLowerCase();
-            const okRange = matchesDecade(year, range);
-            const okKeyword = q === "" || text.includes(q);
+      <div class="year-grid" id="yearGrid">
 
-            if (okRange && okKeyword) {
-              card.style.display = "";
-              visible++;
-            } else {
-              card.style.display = "none";
-            }
-          });
+        <!-- 2025 -->
+        <article class="year-card" data-year="2025">
+          <div class="year-main"><div class="year">2025</div><div class="year-badge">27회</div></div>
+          <p class="year-theme">지능형 개발 기술과 소프트웨어공학</p>
+          <p class="year-location">강원도 평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2025/" target="_blank">KCSE 2025</a>
+        </article>
 
-          noResult.style.display = visible === 0 ? "block" : "none";
-        }
+        <!-- 2024 -->
+        <article class="year-card" data-year="2024">
+          <div class="year-main"><div class="year">2024</div><div class="year-badge">26회</div></div>
+          <p class="year-theme">거대 인공지능과 소프트웨어공학</p>
+          <p class="year-location">휘닉스 평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2024/" target="_blank">KCSE 2024</a>
+        </article>
 
-        searchInput.addEventListener("input", applyFilter);
-        yearRange.addEventListener("change", applyFilter);
-      })();
-    </script>
-  </body>
+        <!-- 2023 -->
+        <article class="year-card" data-year="2023">
+          <div class="year-main"><div class="year">2023</div><div class="year-badge">25회</div></div>
+          <p class="year-theme">안전한 사회를 위한 SW공학</p>
+          <p class="year-location">휘닉스 평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2023/" target="_blank">KCSE 2023</a>
+        </article>
+
+        <!-- 2022 -->
+        <article class="year-card" data-year="2022">
+          <div class="year-main"><div class="year">2022</div><div class="year-badge">24회</div></div>
+          <p class="year-theme">신뢰할 수 있는 인공지능</p>
+          <p class="year-location">온·오프라인 병행</p>
+          <a class="year-link" href="https://sigsoft.or.kr/KCSE2022/" target="_blank">KCSE 2022</a>
+        </article>
+
+        <!-- 2021 -->
+        <article class="year-card" data-year="2021">
+          <div class="year-main"><div class="year">2021</div><div class="year-badge">23회</div></div>
+          <p class="year-theme">비대면 시대 SW공학</p>
+          <p class="year-location">온라인</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2021/" target="_blank">KCSE 2021</a>
+        </article>
+
+        <!-- 2020 -->
+        <article class="year-card" data-year="2020">
+          <div class="year-main"><div class="year">2020</div><div class="year-badge">22회</div></div>
+          <p class="year-theme">AI를 완성하는 SW공학</p>
+          <p class="year-location">강원도 평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/KCSE2020/" target="_blank">KCSE 2020</a>
+        </article>
+
+        <!-- 2019 -->
+        <article class="year-card" data-year="2019">
+          <div class="year-main"><div class="year">2019</div><div class="year-badge">21회</div></div>
+          <p class="year-theme">초연결·초지능 SW공학</p>
+          <p class="year-location">평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2019/" target="_blank">KCSE 2019</a>
+        </article>
+
+        <!-- 2018 -->
+        <article class="year-card" data-year="2018">
+          <div class="year-main"><div class="year">2018</div><div class="year-badge">20회</div></div>
+          <p class="year-theme">지능정보사회 SW공학</p>
+          <p class="year-location">평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse2018/" target="_blank">KCSE 2018</a>
+        </article>
+
+        <!-- 2017 -->
+        <article class="year-card" data-year="2017">
+          <div class="year-main"><div class="year">2017</div><div class="year-badge">19회</div></div>
+          <p class="year-theme">4차 산업혁명과 SW공학</p>
+          <p class="year-location">평창</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2017/" target="_blank">KCSE 2017</a>
+        </article>
+
+        <!-- 2016 -->
+        <article class="year-card" data-year="2016">
+          <div class="year-main"><div class="year">2016</div><div class="year-badge">18회</div></div>
+          <p class="year-theme">KCSE 2016 논문집</p>
+          <p class="year-location">공식 페이지 참고</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2016/" target="_blank">KCSE 2016</a>
+        </article>
+
+        <!-- 2015 -->
+        <article class="year-card" data-year="2015">
+          <div class="year-main"><div class="year">2015</div><div class="year-badge">17회</div></div>
+          <p class="year-theme">KCSE 2015 논문집</p>
+          <p class="year-location">공식 페이지 참고</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2015/" target="_blank">KCSE 2015</a>
+        </article>
+
+        <!-- 2014 -->
+        <article class="year-card" data-year="2014">
+          <div class="year-main"><div class="year">2014</div><div class="year-badge">16회</div></div>
+          <p class="year-theme">KCSE 2014 논문집</p>
+          <p class="year-location">공식 페이지 참고</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2014/" target="_blank">KCSE 2014</a>
+        </article>
+
+        <!-- 2013 -->
+        <article class="year-card" data-year="2013">
+          <div class="year-main"><div class="year">2013</div><div class="year-badge">15회</div></div>
+          <p class="year-theme">KCSE 2013 자료</p>
+          <p class="year-location">공식 페이지 참고</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2013/" target="_blank">KCSE 2013</a>
+        </article>
+
+        <!-- 2012 -->
+        <article class="year-card" data-year="2012">
+          <div class="year-main"><div class="year">2012</div><div class="year-badge">14회</div></div>
+          <p class="year-theme">KCSE 2012 자료</p>
+          <p class="year-location">공식 페이지 참고</p>
+          <a class="year-link" href="https://sigsoft.or.kr/kcse-2012/" target="_blank">KCSE 2012</a>
+        </article>
+
+      </div>
+
+      <p id="noResult" class="no-result">일치하는 학술대회가 없습니다.</p>
+    </section>
+  </div>
+
+  <script>
+    (function () {
+      const searchInput = document.getElementById('yearSearch');
+      const yearRange = document.getElementById('yearRange');
+      const cards = Array.from(document.querySelectorAll('.year-card[data-year]'));
+      const noResult = document.getElementById('noResult');
+
+      function matchesDecade(year, range) {
+        if (range === 'all') return true;
+        if (range === '2020s') return year >= 2020;
+        if (range === '2010s') return year >= 2010 && year < 2020;
+        return true;
+      }
+
+      function applyFilter() {
+        const q = (searchInput.value || '').toLowerCase();
+        const range = yearRange.value;
+        let visible = 0;
+
+        cards.forEach(card => {
+          const year = parseInt(card.dataset.year, 10);
+          const text = card.textContent.toLowerCase();
+          const okRange = matchesDecade(year, range);
+          const okKeyword = q === '' || text.includes(q);
+
+          if (okRange && okKeyword) {
+            card.style.display = "";
+            visible++;
+          } else {
+            card.style.display = "none";
+          }
+        });
+
+        noResult.style.display = visible === 0 ? "block" : "none";
+      }
+
+      searchInput.addEventListener('input', applyFilter);
+      yearRange.addEventListener('change', applyFilter);
+    })();
+  </script>
+</body>
 </html>
