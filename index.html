@@ -235,6 +235,14 @@
           padding: 2px 6px !important;
         }
       }
+      @media (min-width: 900px) {
+        #yearGrid {
+          display: grid;
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+          column-gap: 16px; /* 좌우 카드 사이 간격 */
+          row-gap: 8px; /* 위아래 카드 간격 */
+        }
+      }
     </style>
   </head>
 
