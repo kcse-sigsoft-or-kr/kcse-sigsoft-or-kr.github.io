@@ -149,31 +149,29 @@
       display: none;
     }
 
-   /* RESPONSIVE */
-@media (max-width: 600px) {
-  .page { padding: 20px 16px; }
-  .filter-bar { flex-direction: column; align-items: stretch; }
-  .year-grid { grid-template-columns: 1fr; }
-  .filter-select { width: 100%; }
-  .filter-input { width: 100%; }
+   /* FILTER INPUT & SELECT 기본 스타일 개선 */
+.filter-input,
+.filter-select {
+  border: 1px solid #000;
+  padding: 4px 8px;              /* 높이 줄임 */
+  font-size: 0.85rem;
+  line-height: 1.2;              /* 높이 과다 방지 */
+  background: #fff;
+  border-radius: 4px;
+  height: 30px;                  /* 명시적으로 얇게 설정 */
+  -webkit-appearance: none;      /* iOS 기본 스타일 제거 */
+  -moz-appearance: none;
+  appearance: none;
 }
 
-/* PHONE RESPONSIVE FIXED INPUT SIZE */
+/* 모바일에서도 동일한 높이 유지 */
 @media (max-width: 480px) {
-  .filter-bar {
-    flex-direction: column;
-    align-items: center;
-    gap: 6px;
-  }
-
   .filter-input,
   .filter-select {
     width: 70%;
     max-width: 260px;
-  }
-
-  .year-grid {
-    grid-template-columns: 1fr;
+    height: 30px;                /* 모바일에서도 고정 */
+    padding: 4px 8px;
   }
 }
 
