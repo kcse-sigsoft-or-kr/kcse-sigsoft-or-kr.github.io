@@ -90,17 +90,6 @@
         appearance: none !important;
       }
 
-      /* 모바일에서도 동일한 높이 유지 */
-      @media (max-width: 480px) {
-        .filter-input,
-        .filter-select {
-          width: 70%;
-          max-width: 240px;
-          height: 28px !important; /* 모바일에서도 강제 */
-          padding: 2px 6px !important;
-        }
-      }
-
       .filter-input {
         flex: 1 1 180px;
       }
@@ -223,7 +212,9 @@
         .filter-input,
         .filter-select {
           width: 70%;
-          max-width: 260px;
+          max-width: 240px;
+          height: 28px !important; /* 모바일에서도 강제 */
+          padding: 2px 6px !important;
         }
       }
     </style>
