@@ -149,14 +149,34 @@
       display: none;
     }
 
-    /* RESPONSIVE */
-    @media (max-width: 600px) {
-      .page { padding: 20px 16px; }
-      .filter-bar { flex-direction: column; align-items: stretch; }
-      .filter-select { width: 100%; }
-      .filter-input { width: 100%; }
-      .year-grid { grid-template-columns: 1fr; }
-    }
+   /* RESPONSIVE */
+@media (max-width: 600px) {
+  .page { padding: 20px 16px; }
+  .filter-bar { flex-direction: column; align-items: stretch; }
+  .year-grid { grid-template-columns: 1fr; }
+  .filter-select { width: 100%; }
+  .filter-input { width: 100%; }
+}
+
+/* PHONE RESPONSIVE FIXED INPUT SIZE */
+@media (max-width: 480px) {
+  .filter-bar {
+    flex-direction: column;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .filter-input,
+  .filter-select {
+    width: 70%;
+    max-width: 260px;
+  }
+
+  .year-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
   </style>
 </head>
 
