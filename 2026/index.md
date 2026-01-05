@@ -6,7 +6,7 @@
 
 <h1 align="center">2026 한국 소프트웨어공학 학술대회 (KCSE 2026)<br><br>소프트웨어 공학 가치의 확산: DevSecOps, MLSecOps, 그리고 그 너머</h1>
 
-[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[학술 대회 조직 구성](#학술-대회-조직-구성)] [[학술위원](#학술위원)]
+[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
 
 ## 행사개요
 
@@ -40,48 +40,53 @@
 
 다음에 나열된 분야를 포함한 소프트웨어공학 전 분야의 논문을 모집합니다.
 
-- AI for Software Engineering
-- Low Code, No Code, and Auto-coding
-- Agile Methodologies
-- Autonomic and (self-) Adaptive Systems
-- Blockchain Platform/Blockchain-based Software Systems
-- Cloud and Service-Oriented Computing
-- Component-based Software Engineering
-- Configuration Management and Deployment
-- Cooperative, Distributed, and Collaborative Software Engineering
-- Debugging, Fault Localization, and Repair
-- Dependability, Safety, and Reliability
-- Embedded & Realtime Systems
-- Empirical Software Engineering
-- End-user Software Engineering
-- Formal Methods
-- Green and Sustainable Technologies
-- Human Factors and Social Aspects of Software Engineering
-- IoT and CPS
-- Middleware, Frameworks, and APIs
-- Mining Software Repository
-- Mobile and Pervasive Software Systems
-- Model-Driven and Domain Specific Engineering
-- Parallel, Distributed, and Concurrent Systems
-- Program Languages and Systems
-- Refactoring
-- Requirements Engineering
-- Reverse Engineering
-- Search-based Software Engineering
-- Security, Privacy, and Trust
-- Software Architecture, Modeling, and Design
-- Software Comprehension, Visualization, and Traceability
-- Software Economics and Metrics
-- Software Engineering Education
-- Software Engineering for AI
-- Software Engineering for Hyper-Connectivity, Super-Intelligence, and Hyper-Convergence
-- Software Evolution and Maintenance
-- Software Process and Standards
-- Software Product Line Engineering
-- Software Reuse
-- Software Safety and Reliability
-- System of Systems
-- Testing, Verification, and Validation
+<details>
+<summary>논문 모집 분야 보기</summary>
+<ul>
+  <li>AI for Software Engineering</li>
+  <li>Low Code, No Code, and Auto-coding</li>
+  <li>Agile Methodologies</li>
+  <li>Autonomic and (self-) Adaptive Systems</li>
+  <li>Blockchain Platform/Blockchain-based Software Systems</li>
+  <li>Cloud and Service-Oriented Computing</li>
+  <li>Component-based Software Engineering</li>
+  <li>Configuration Management and Deployment</li>
+  <li>Cooperative, Distributed, and Collaborative Software Engineering</li>
+  <li>Debugging, Fault Localization, and Repair</li>
+  <li>Dependability, Safety, and Reliability</li>
+  <li>Embedded & Realtime Systems</li>
+  <li>Empirical Software Engineering</li>
+  <li>End-user Software Engineering</li>
+  <li>Formal Methods</li>
+  <li>Green and Sustainable Technologies</li>
+  <li>Human Factors and Social Aspects of Software Engineering</li>
+  <li>IoT and CPS</li>
+  <li>Middleware, Frameworks, and APIs</li>
+  <li>Mining Software Repository</li>
+  <li>Mobile and Pervasive Software Systems</li>
+  <li>Model-Driven and Domain Specific Engineering</li>
+  <li>Parallel, Distributed, and Concurrent Systems</li>
+  <li>Program Languages and Systems</li>
+  <li>Refactoring</li>
+  <li>Requirements Engineering</li>
+  <li>Reverse Engineering</li>
+  <li>Search-based Software Engineering</li>
+  <li>Security, Privacy, and Trust</li>
+  <li>Software Architecture, Modeling, and Design</li>
+  <li>Software Comprehension, Visualization, and Traceability</li>
+  <li>Software Economics and Metrics</li>
+  <li>Software Engineering Education</li>
+  <li>Software Engineering for AI</li>
+  <li>Software Engineering for Hyper-Connectivity, Super-Intelligence, and Hyper-Convergence</li>
+  <li>Software Evolution and Maintenance</li>
+  <li>Software Process and Standards</li>
+  <li>Software Product Line Engineering</li>
+  <li>Software Reuse</li>
+  <li>Software Safety and Reliability</li>
+  <li>System of Systems</li>
+  <li>Testing, Verification, and Validation</li>
+</ul>
+</details>
 
 ## 논문 접수
 
@@ -109,64 +114,74 @@
 - 튜토리얼 제안서는 학술위원장에게 이메일로 제출해주시기 바랍니다.
 - 기타 문의 사항 연락처: 학술위원장 UNIST 김미정 (mijungk@unist.ac.kr)
 
-## 학술 대회 조직 구성
+## 조직위원
 
-- 이정원 대회장 (아주대학교)
-- 유준범 대회장 (건국대학교)
-- 이주용 조직 위원장 (UNIST)
-- 김미정 학술 위원장 (UNIST)
-- 홍신 재무 위원장 (충북대학교)
-- 남재창 Web 위원장 (한동대학교)
-- 김영재 Web 위원장 (UNIST)
-- 배경민 튜토리얼 위원장 (POSTECH)
-- 강종구 신진연구자 세미나 위원장 (성신여자대학교)
+<details>
+<summary>조직위원 보기</summary>
+<ul>
+  <li>이정원 대회장 (아주대학교)</li>
+  <li>유준범 대회장 (건국대학교)</li>
+  <li>이주용 조직 위원장 (UNIST)</li>
+  <li>김미정 학술 위원장 (UNIST)</li>
+  <li>홍신 재무 위원장 (충북대학교)</li>
+  <li>남재창 Web 위원장 (한동대학교)</li>
+  <li>김영재 Web 위원장 (UNIST)</li>
+  <li>배경민 튜토리얼 위원장 (POSTECH)</li>
+  <li>강종구 신진연구자 세미나 위원장 (성신여자대학교)</li>
+</ul>
+</details>
 
 ## 학술위원
 
-- 강종구 (성신여대)
-- 고인영 (KAIST)
-- 김기섭 (DGIST)
-- 김동선 (고려대)
-- 김문주 (KAIST)
-- 김윤호 (한양대)
-- 김정아 (가톨릭관동대)
-- 김진대 (서울과학기술대)
-- 김진현 (경상대)
-- 김택수 (삼성전자)
-- 김형석 (충남대)
-- 남재창 (한동대)
-- 류덕산 (전북대)
-- 마유승 (ETRI)
-- 박수진 (서강대)
-- 박지훈 (충남대)
-- 배경민 (POSTECH)
-- 백종문 (KAIST)
-- 서영석 (영남대)
-- 손정주 (경북대)
-- 송지영 (한남대)
-- 안가빈 (고려대)
-- 안성수 (경상대)
-- 양근석 (한경대)
-- 오학주 (고려대)
-- 유명성 (서울시립대)
-- 유신 (KAIST)
-- 유준범 (건국대)
-- 운회진 (협성대)
-- 이선아 (경상대)
-- 이우석 (한양대)
-- 이은서 (국립경국대)
-- 이은주 (경북대)
-- 이재권 (강원대)
-- 이지현 (전북대)
-- 이찬근 (전북대)
-- 이희진 (동양미래대)
-- 정우성 (서울교대)
-- 정필수 (경상대)
-- 지은경 (KAIST)
-- 차상길 (KAIST)
-- 차수영 (성균관대)
-- 채홍석 (부산대)
-- 최윤자 (경북대)
-- 허기홍 (KAIST)
-- 홍신 (충북대)
-- 홍장의 (충북대)
+<details>
+<summary>학술위원 명단 보기</summary>
+<ul>
+  <li>강종구 (성신여대)</li>
+  <li>고인영 (KAIST)</li>
+  <li>김기섭 (DGIST)</li>
+  <li>김동선 (고려대)</li>
+  <li>김문주 (KAIST)</li>
+  <li>김윤호 (한양대)</li>
+  <li>김정아 (가톨릭관동대)</li>
+  <li>김진대 (서울과학기술대)</li>
+  <li>김진현 (경상대)</li>
+  <li>김택수 (삼성전자)</li>
+  <li>김형석 (충남대)</li>
+  <li>남재창 (한동대)</li>
+  <li>류덕산 (전북대)</li>
+  <li>마유승 (ETRI)</li>
+  <li>박수진 (서강대)</li>
+  <li>박지훈 (충남대)</li>
+  <li>배경민 (POSTECH)</li>
+  <li>백종문 (KAIST)</li>
+  <li>서영석 (영남대)</li>
+  <li>손정주 (경북대)</li>
+  <li>송지영 (한남대)</li>
+  <li>안가빈 (고려대)</li>
+  <li>안성수 (경상대)</li>
+  <li>양근석 (한경대)</li>
+  <li>오학주 (고려대)</li>
+  <li>유명성 (서울시립대)</li>
+  <li>유신 (KAIST)</li>
+  <li>유준범 (건국대)</li>
+  <li>운회진 (협성대)</li>
+  <li>이선아 (경상대)</li>
+  <li>이우석 (한양대)</li>
+  <li>이은서 (국립경국대)</li>
+  <li>이은주 (경북대)</li>
+  <li>이재권 (강원대)</li>
+  <li>이지현 (전북대)</li>
+  <li>이찬근 (전북대)</li>
+  <li>이희진 (동양미래대)</li>
+  <li>정우성 (서울교대)</li>
+  <li>정필수 (경상대)</li>
+  <li>지은경 (KAIST)</li>
+  <li>차상길 (KAIST)</li>
+  <li>차수영 (성균관대)</li>
+  <li>채홍석 (부산대)</li>
+  <li>최윤자 (경북대)</li>
+  <li>허기홍 (KAIST)</li>
+  <li>홍신 (충북대)</li>
+  <li>홍장의 (충북대)</li>
+</ul>
+</details>
