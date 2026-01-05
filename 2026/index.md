@@ -1,3 +1,5 @@
+<!-- title: KCSE2026 -->
+
 <p align="center">
   <img src="index.fld/image002.png" alt="KCSE 2026 banner">
 </p>
