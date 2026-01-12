@@ -1,7 +1,39 @@
 <!-- title: KCSE2026 -->
 
 <head>
-<style>
+<style>  
+  .sponsor-table {
+    border-collapse: collapse;
+    margin: 24px 0;
+    text-align: left;
+  }
+  .sponsor-table td {
+    padding: 12px;
+    vertical-align: middle;
+    text-align: center;
+  }
+  .sponsor-gold img {
+    width: 280px;
+    max-width: 90%;
+    height: auto;
+  }
+  .sponsor-silver img {
+    width: 140px;
+    max-width: 90%;
+    height: auto;
+  }
+  .sponsor-bronze-grid {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(120px, 1fr));
+    gap: 12px 16px;
+    align-items: center;
+    justify-items: center;
+  }
+  .sponsor-bronze img {
+    width: 110px;
+    max-width: 90%;
+    height: auto;
+  }
   @media screen and (min-width: 1024px) {
     body {
       font-size: 16px;
@@ -15,6 +47,25 @@
     }
     h1 {
       font-size: 20px;
+    }
+    .sponsor-table,
+    .sponsor-table tbody,
+    .sponsor-table tr,
+    .sponsor-table td {
+      display: block;
+      width: 100%;
+    }
+    .sponsor-table td {
+      padding: 8px 0;
+    }
+    .sponsor-gold img {
+      width: 220px;
+    }
+    .sponsor-silver img {
+      width: 120px;
+    }
+    .sponsor-bronze-grid {
+      grid-template-columns: repeat(2, minmax(120px, 1fr));
     }
   }
 </style>
@@ -39,6 +90,57 @@
 ## 모시는 글
 
 한국정보과학회와 한국정보처리학회가 공동 주최하고 한국정보과학회의 소프트웨어공학 소사이어티와 한국정보처리학회의 소프트웨어공학 연구회가 공동 주관하는 “제 28회 한국 소프트웨어공학 학술대회 (KCSE 2026)”가 2026년 2월 4일 (수)부터 2월 6일 (금)까지 UNIST에서 개최됩니다. DevOps, MLOps, DevSecOps, MLSecOps와 같은 다양한 신조어의 등장은 소프트웨어공학의 개념과 가치가 개발뿐 아니라, 보안, 인공지능, 데이터 등 컴퓨터공학의 여러 분야로 확장되고 융합되고 있음을 보여줍니다. 소프트웨어공학적 관점과 접근법은 이제 여러 분야의 연구와 실무에서 새로운 형태로 해석되고 적용되며 그 영향력을 넓혀가고 있습니다. 이번 KCSE 2026에서는 이러한 변화의 흐름 속에서 소프트웨어공학의 가치가 어떻게 재해석되고 확산되며, 다양한 분야와 어떻게 연결되어 새로운 시너지를 만들어내는지를 함께 논의하고자 합니다. 학계와 산업계의 연구자와 실무자 여러분의 많은 관심과 참여를 부탁드립니다.
+
+## 후원사
+
+<table class="sponsor-table">
+  <tr class="sponsor-gold">
+    <td><strong>골드</strong></td>
+    <td colspan="2">
+      <a href="https://sol-link.com/">
+        <img src="sponsors/solutionlink.png" alt="solutionlink logo">
+      </a>
+    </td>
+  </tr>
+  <tr class="sponsor-silver">
+    <td><strong>실버</strong></td>
+    <td>
+      <a href="https://www.bit.kr/">
+        <img src="sponsors/bitcomputer.png" alt="bitcomputer logo">
+      </a>
+    </td>
+    <td>
+      <a href="https://www.vtw.co.kr/">
+        <img src="sponsors/vtw.png" alt="vtw logo">
+      </a>
+    </td>
+  </tr>
+  <tr class="sponsor-bronze">
+    <td><strong>브론즈</strong></td>
+    <td colspan="2">
+      <div class="sponsor-bronze-grid">
+        <a href="https://www.suresofttech.com/">
+          <img src="sponsors/suresoft.png" alt="suresoft logo">
+        </a>
+        <a href="https://dahan.co.kr/">
+          <img src="sponsors/dahan.svg" alt="dahan logo">
+        </a>
+        <a href="https://www.vpluslab.kr/">
+          <img src="sponsors/vpluslab.png" alt="vpluslab logo">
+        </a>
+        <a href="http://www.formalworks.com/">
+          <img src="sponsors/formalworks.png" alt="formalworks logo">
+        </a>
+        <a href="https://www.tta.or.kr/">
+          <img src="sponsors/TTA.webp" alt="TTA logo">
+        </a>
+        <a href="https://www.codemind.co.kr/">
+        <img src="sponsors/codemind.png" alt="codemind logo">
+        </a>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ## 참가 등록
 
