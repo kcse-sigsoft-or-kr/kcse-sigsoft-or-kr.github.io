@@ -13,7 +13,8 @@
 <style>
   @media screen and (max-width: 767px) {
     body {
-      font-size: 14px;
+      font-size: 18px;
+      padding-bottom: 20px; /* space at bottom */
     }
   }
 </style>
