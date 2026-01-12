@@ -262,17 +262,17 @@
 ## 기조연설
 
 - 2월 4일 (수): 박인욱 (LG 전자)
-  - **강연 제목:** **AI-Native DevOps: What Should We Do — Accelerating Software Engineering with Shift-Left, CI/CD, and IDP**
-  - **초록:** AI-Native DevOps의 핵심은 “새로운 도구 나열”이 아니라 기존 SW공학의 가속과 표준화다. SW 개발의 핵심인 Shift-Left 와 CI/CD 전략을 개발자 역량의 연장선으로 보고, 이를 포함한 SDLC를 IDP(Internal Developer Platform) 위에서 AI 지원을 통해 일관된 가드레일과 골든 패스로 제공하는 방향을 제시한다. 결과적으로, 사람의 역량 × IDP  × AI 의 증폭으로 속도와 신뢰를 동시에 끌어올리는 실행 프레임을 제시한다.
-  - **연설자 소개:** 박인욱 상무는 현재 LG전자 webOS SW개발그룹 DevOps 개발실장으로, 제조사에 DevOps를 도입하여 정착·고도화하고, webOS Re:New 업그레이드 프로그램과 DevSecOps·플랫폼 엔지니어링·AI 기반 생산성 혁신을 이끌고 있다.
+  - 강연 제목: **AI-Native DevOps: What Should We Do — Accelerating Software Engineering with Shift-Left, CI/CD, and IDP**
+  - 초록: AI-Native DevOps의 핵심은 “새로운 도구 나열”이 아니라 기존 SW공학의 가속과 표준화다. SW 개발의 핵심인 Shift-Left 와 CI/CD 전략을 개발자 역량의 연장선으로 보고, 이를 포함한 SDLC를 IDP(Internal Developer Platform) 위에서 AI 지원을 통해 일관된 가드레일과 골든 패스로 제공하는 방향을 제시한다. 결과적으로, 사람의 역량 × IDP  × AI 의 증폭으로 속도와 신뢰를 동시에 끌어올리는 실행 프레임을 제시한다.
+  - 연설자 소개: 박인욱 상무는 현재 LG전자 webOS SW개발그룹 DevOps 개발실장으로, 제조사에 DevOps를 도입하여 정착·고도화하고, webOS Re:New 업그레이드 프로그램과 DevSecOps·플랫폼 엔지니어링·AI 기반 생산성 혁신을 이끌고 있다.
   <p>
 - 2월 5일 (목): [이희조 (고려대학교)](https://ccs.korea.ac.kr/people/heejo/)
   <div class="speaker-block">
     <img src="keynotes/heejo_lee.jpg" alt="이희조" class="speaker-photo">
     <ul class="speaker-info">
-      <li><strong>강연 제목:</strong> <strong>보이지 않던 소프트웨어를 투명하게: SBOM과 취약점 관리가 던지는 질문</strong></li>
-      <li><strong>초록:</strong> 소프트웨어 공급망 공격이 증가하면서, 소프트웨어는 더 이상 “잘 동작하는가”만으로 평가되기 어려워졌다. 최근 미국과 유럽을 중심으로 강화되고 있는 제품 보안 및 공급망 보안 규제는, 소프트웨어가 "무엇으로 구성되어 있는지(SBOM)"와 발견된 취약점이 실제로 어떤 영향을 미치는지를 설명할 것을 요구하고 있다.</li>
-      <li><strong>연설자 소개:</strong> 이희조 교수는 고려대학교 정보대학 컴퓨터학과 교수이자 소프트웨어보안연구소(CSSA) 연구소장으로, 지난 20여 년간 국가·산업·학계를 아우르며 공급망 보안과 취약점 분석 기술 연구, 보안 인재 양성에 힘써왔다. 안랩 CTO를 역임했으며, 현재는 고려대학교 기술지주 자회사 ㈜래브라도랩스 공동대표로서 SBOM 및 오픈소스 보안 솔루션의 확산을 추진하고 있다.</li>
+      <li>강연 제목: <strong>보이지 않던 소프트웨어를 투명하게: SBOM과 취약점 관리가 던지는 질문</strong></li>
+      <li>초록: 소프트웨어 공급망 공격이 증가하면서, 소프트웨어는 더 이상 “잘 동작하는가”만으로 평가되기 어려워졌다. 최근 미국과 유럽을 중심으로 강화되고 있는 제품 보안 및 공급망 보안 규제는, 소프트웨어가 "무엇으로 구성되어 있는지(SBOM)"와 발견된 취약점이 실제로 어떤 영향을 미치는지를 설명할 것을 요구하고 있다.</li>
+      <li>연설자 소개: 이희조 교수는 고려대학교 정보대학 컴퓨터학과 교수이자 소프트웨어보안연구소(CSSA) 연구소장으로, 지난 20여 년간 국가·산업·학계를 아우르며 공급망 보안과 취약점 분석 기술 연구, 보안 인재 양성에 힘써왔다. 안랩 CTO를 역임했으며, 현재는 고려대학교 기술지주 자회사 ㈜래브라도랩스 공동대표로서 SBOM 및 오픈소스 보안 솔루션의 확산을 추진하고 있다.</li>
     </ul>
   </div>
   <br>
