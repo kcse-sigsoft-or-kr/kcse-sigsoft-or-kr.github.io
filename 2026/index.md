@@ -2,10 +2,18 @@
 
 <head>
 <style>
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
-    font-size: 16px;
-    line-height: 1.6;
+  @media screen and (min-width: 1024px) {
+    body {
+      font-size: 16px;
+    }
+  }
+</style>
+
+<style>
+  @media screen and (max-width: 767px) {
+    body {
+      font-size: 14px;
+    }
   }
 </style>
 </head>
@@ -209,3 +217,5 @@
   <li>홍장의 (충북대)</li>
 </ul>
 </details>
+
+## 후원
