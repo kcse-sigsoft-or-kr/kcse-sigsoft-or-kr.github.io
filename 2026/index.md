@@ -8,16 +8,17 @@
       padding-bottom: 20px; /* space at bottom */
     }
   }
-</style>
-
-<style>
   @media screen and (max-width: 767px) {
     body {
-      font-size: 18px;
+      font-size: 13px;
       padding-bottom: 20px; /* space at bottom */
+    }
+    h1 {
+      font-size: 20px;
     }
   }
 </style>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
 <p align="center">
