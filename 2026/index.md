@@ -1,5 +1,15 @@
 <!-- title: KCSE2026 -->
 
+<head>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', system-ui, 'Ubuntu', 'Droid Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+</style>
+</head>
+
 <p align="center">
   <img src="index.fld/image002.png" alt="KCSE 2026 banner">
 </p>
