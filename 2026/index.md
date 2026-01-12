@@ -46,7 +46,7 @@
       padding-bottom: 20px; /* space at bottom */
     }
     h1 {
-      font-size: 20px;
+      font-size: 19px;
     }
     .sponsor-table,
     .sponsor-table tbody,
