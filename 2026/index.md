@@ -5,6 +5,7 @@
   @media screen and (min-width: 1024px) {
     body {
       font-size: 16px;
+      padding-bottom: 20px; /* space at bottom */
     }
   }
 </style>
@@ -217,5 +218,3 @@
   <li>홍장의 (충북대)</li>
 </ul>
 </details>
-
-## 후원
