@@ -262,10 +262,15 @@
 ## 기조연설
 
 - 2월 4일 (수): 박인욱 (LG 전자)
-  - 강연 제목: **AI-Native DevOps: What Should We Do — Accelerating Software Engineering with Shift-Left, CI/CD, and IDP**
-  - 초록: AI-Native DevOps의 핵심은 “새로운 도구 나열”이 아니라 기존 SW공학의 가속과 표준화다. SW 개발의 핵심인 Shift-Left 와 CI/CD 전략을 개발자 역량의 연장선으로 보고, 이를 포함한 SDLC를 IDP(Internal Developer Platform) 위에서 AI 지원을 통해 일관된 가드레일과 골든 패스로 제공하는 방향을 제시한다. 결과적으로, 사람의 역량 × IDP  × AI 의 증폭으로 속도와 신뢰를 동시에 끌어올리는 실행 프레임을 제시한다.
-  - 연설자 소개: 박인욱 상무는 현재 LG전자 webOS SW개발그룹 DevOps 개발실장으로, 제조사에 DevOps를 도입하여 정착·고도화하고, webOS Re:New 업그레이드 프로그램과 DevSecOps·플랫폼 엔지니어링·AI 기반 생산성 혁신을 이끌고 있다.
-  <p>
+  <div class="speaker-block">
+    <img src="keynotes/inuk_park.png" alt="박인욱" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>강연 제목: <strong>AI-Native DevOps: What Should We Do — Accelerating Software Engineering with Shift-Left, CI/CD, and IDP</strong></li>
+      <li>초록: AI-Native DevOps의 핵심은 “새로운 도구 나열”이 아니라 기존 SW공학의 가속과 표준화다. SW 개발의 핵심인 Shift-Left 와 CI/CD 전략을 개발자 역량의 연장선으로 보고, 이를 포함한 SDLC를 IDP(Internal Developer Platform) 위에서 AI 지원을 통해 일관된 가드레일과 골든 패스로 제공하는 방향을 제시한다. 결과적으로, 사람의 역량 × IDP  × AI 의 증폭으로 속도와 신뢰를 동시에 끌어올리는 실행 프레임을 제시한다.</li>
+      <li>연설자 소개: 박인욱 상무는 현재 LG전자 webOS SW개발그룹 DevOps 개발실장으로, 제조사에 DevOps를 도입하여 정착·고도화하고, webOS Re:New 업그레이드 프로그램과 DevSecOps·플랫폼 엔지니어링·AI 기반 생산성 혁신을 이끌고 있다.</li>
+    </ul>
+  </div>
+  <br>
 - 2월 5일 (목): [이희조 (고려대학교)](https://ccs.korea.ac.kr/people/heejo/)
   <div class="speaker-block">
     <img src="keynotes/heejo_lee.jpg" alt="이희조" class="speaker-photo">
