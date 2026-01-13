@@ -362,7 +362,7 @@
 | Automated code-based test case reuse for software product line testing | ICST 2024 | 정필수 | 경상대학교 | 
 | Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis | ASE 2025 | 홍재민 | KAIST | 
 | TopSeed: Learning Seed Selection Strategies for Symbolic Execution from Scratch | ICSE 2025 | 이재혁 | 성균관대학교 | 
-| Can We Trust the Actionable Guidance from Explainable AI Techniques in Defect Prediction?  | SANER 2025 | 이기찬 | 한양대학교 | 
+| Can We Trust the Actionable Guidance from Explainable AI Techniques in Defect Prediction? | SANER 2025 | 이기찬 | 한양대학교 | 
 
 ## 조직위원
 
