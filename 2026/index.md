@@ -49,6 +49,11 @@
     margin: 0;
     padding-left: 16px;
   }
+  .special-photo {
+    width: 220px;
+    height: auto;
+    border-radius: 4px;
+  }
   @media screen and (min-width: 1024px) {
     body {
       font-size: 16px;
@@ -100,7 +105,7 @@
 
 <h1 align="center">2026 한국 소프트웨어공학 학술대회 (KCSE 2026)<br><br>소프트웨어 공학 가치의 확산:<br>DevSecOps, MLSecOps, 그리고 그 너머</h1>
 
-[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[기조연설](#기조연설)] [[튜토리얼](#튜토리얼)] [[신진 연구자](#신진-연구자)] [[초청 우수 논문](#초청-우수-논문)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
+[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[기조연설](#기조연설)] [[튜토리얼](#튜토리얼)] [[신진 연구자](#신진-연구자)] [[초청 우수 논문](#초청-우수-논문)] [[특별 행사](#특별-행사)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
 
 ## 행사개요
 
@@ -348,7 +353,7 @@
       <li>연설자 소개: 추후 공고</li>
     </ul>
   </div>
-  <br>    
+  <br>
 
 ## 초청 우수 논문
 
@@ -363,6 +368,28 @@
 | Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis | ASE 2025 | 홍재민 | KAIST | 
 | TopSeed: Learning Seed Selection Strategies for Symbolic Execution from Scratch | ICSE 2025 | 이재혁 | 성균관대학교 | 
 | Can We Trust the Actionable Guidance from Explainable AI Techniques in Defect Prediction? | SANER 2025 | 이기찬 | 한양대학교 | 
+
+## 특별 행사
+
+- **IITP 공청회:** IITP에서 추진 중인 AI 네이티브 SW 산업혁신기술개발 사업과 관련하여 공청회를 개최합니다. 본 공청회에서는 사업의 개요와 목표, 기대효과 등에 대해 소개하고, SW공학 전문가들의 의견을 수렴하는 시간을 가질 예정입니다.
+  <div class="speaker-block">
+    <img src="special/IITP.jpg" alt="IITP" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>주제: <strong>AI 네이티브 SW 산업혁신기술개발 사업</strong></li>
+      <li>개요: 추후 공고</li>
+    </ul>
+  </div>
+
+- [태화강 국가정원 은하수길 산책](https://www.ulsan.go.kr/s/garden/bbs/view.ulsan?bbsId=BBS_0000000000000165&mId=001002001000000000&dataId=27101): 전국에 단 2개뿐인 국가정원 중 하나인 태화강 국가정원 내 은하수길을 산책하며 학회 참석자들 간의 교류와 네트워킹의 시간을 갖습니다.
+  <div class="speaker-block">
+    <img src="special/park.jpeg" alt="은하수길" class="special-photo">
+    <ul class="speaker-info">
+      <li>일시: 2월 4일 (학회 첫째날)</li>
+      <li>장소: 태화강 국가정원 은하수길</li>
+      <li>시간: 저녁 식사 후 (셔틀 서비스 제공 예정)</li>
+      <li>비고: 공원 근처에 몸을 녹일 수 있는 카페와 식당이 다수 위치해 있습니다.</li>
+    </ul>
+  </div>  
 
 ## 조직위원
 
