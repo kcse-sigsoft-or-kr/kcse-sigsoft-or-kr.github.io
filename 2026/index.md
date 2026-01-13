@@ -100,7 +100,7 @@
 
 <h1 align="center">2026 한국 소프트웨어공학 학술대회 (KCSE 2026)<br><br>소프트웨어 공학 가치의 확산:<br>DevSecOps, MLSecOps, 그리고 그 너머</h1>
 
-[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[기조연설](#기조연설)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
+[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[기조연설](#기조연설)] [[튜토리얼](#튜토리얼)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
 
 ## 행사개요
 
@@ -288,6 +288,38 @@
       <li>강연 제목: <strong>설명가능 인공지능을 통한 대형 인공지능 모델의 기능 및 안전성 확인</strong></li>
       <li>초록: 대형인공지능모델(혹은 대형언어모델, LLMs: Large Language Models)이 많은 응용 분야에 활용되고 있다. 이런 LLM의 장점과 함께 거짓답변(hallucination)과 같은 문제는 근본적인 원인 뿐만 아니라 해결이 어려운 면이 있다. 최근 설명가능 인공지능의 발전은 이런 LLM 내부를 확인하고 그 의사 결정을 명확히 하는데 기여하고 있다. 이 강의에서는 이런 설명성 기술이 LLM에 적용되는 최근 기술과 연구 동향을 소개한다.</li>
       <li>연설자 소개: 최재식 교수는 KAIST 김재철AI대학원 석좌교수(㈜인이지 대표이사)이자 설명가능 인공지능(XAI) 연구자로, 한국공학한림원 회원으로 활동하며 산업부 제조 AI 전환(M.AX) 얼라이언스 총괄위원으로서 국가 AI 정책 수립과 제조업 AI 전환에 기여하고 있다.</li>
+    </ul>
+  </div>
+
+## 튜토리얼
+
+- [박상돈 (POSTECH)](https://sangdon.github.io/)
+  <div class="speaker-block">
+    <img src="keynotes/sangdon_park.jpg" alt="박상돈" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>튜토리얼 주제: <strong>AI red teaming</strong></li>
+      <li>초록: 추후 공고</li>
+      <li>연설자 소개: 추후 공고</li>
+    </ul>
+  </div>
+
+- [지은경 (KAIST)](https://sites.google.com/se.kaist.ac.kr/ekjee)
+  <div class="speaker-block">
+    <img src="keynotes/eunkyoung_jee.jpg" alt="지은경" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>튜토리얼 주제: <strong>원자력 분야 Software safety</strong></li>
+      <li>초록: 추후 공고</li>
+      <li>연설자 소개: 추후 공고</li>
+    </ul>
+  </div>
+
+- [김진현 (경상대학교)](https://jin-kim.net/)
+  <div class="speaker-block">
+    <img src="keynotes/jin-kim.jpg" alt="김진현" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>튜토리얼 주제: <strong>Roboracer AI 경주 로봇</strong></li>
+      <li>초록: 추후 공고</li>
+      <li>연설자 소개: 추후 공고</li>
     </ul>
   </div>
 
