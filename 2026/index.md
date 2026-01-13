@@ -100,7 +100,7 @@
 
 <h1 align="center">2026 한국 소프트웨어공학 학술대회 (KCSE 2026)<br><br>소프트웨어 공학 가치의 확산:<br>DevSecOps, MLSecOps, 그리고 그 너머</h1>
 
-[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[기조연설](#기조연설)] [[튜토리얼](#튜토리얼)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
+[[행사개요](#행사개요)] [[모시는 글](#모시는-글)] [[참가 등록](#참가-등록)] [[논문 모집 분야](#논문-모집-분야)] [[논문 접수](#논문-접수)] [[주요 일정](#주요-일정)] [[논문 및 제안서 제출](#논문-및-제안서-제출)] [[기조연설](#기조연설)] [[튜토리얼](#튜토리얼)] [[초청 탑티어 논문](#초청-탑티어-논문)] [[조직위원](#조직위원)] [[학술위원](#학술위원)]
 
 ## 행사개요
 
@@ -302,6 +302,7 @@
       <li>연설자 소개: 추후 공고</li>
     </ul>
   </div>
+  <br>
 
 - [지은경 (KAIST)](https://sites.google.com/se.kaist.ac.kr/ekjee)
   <div class="speaker-block">
@@ -312,6 +313,7 @@
       <li>연설자 소개: 추후 공고</li>
     </ul>
   </div>
+  <br>
 
 - [김진현 (경상대학교)](https://jin-kim.net/)
   <div class="speaker-block">
@@ -322,6 +324,20 @@
       <li>연설자 소개: 추후 공고</li>
     </ul>
   </div>
+  <br>
+
+## 초청 탑티어 논문
+
+| 논문제목 | 학회 | 발표자 | 소속 |
+| ------ | --- | ---- | --- |
+| LOSVER: Line-Level Modifiability Signal-Guided Vulnerability Detection and Classification | ASE 2025 | 남도하 | KAIST |
+| Automated Attack Synthesis for Constant Product Market Makers | ISSTA 2025 | 한수진 | KAIST |
+| An Empirical Study of Web Flaky Tests: Understanding and Unveiling DOM Event Interaction Challenges | ICST 2025 | 손정주 | 경북대학교 | 
+| Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations | ICSE 2025 | 김원회, 남호철 | KAIST |
+| Collaboration failure analysis in cyber-physical system-of-systems using context fuzzy clustering | EMSE 2025 | 현상원 | KAIST |
+| Automated code-based test case reuse for software product line testing | ICST 2024 | 정필수 | 경상대학교 | 
+| Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis | ASE 2025 | 홍재민 | KAIST | 
+| TopSeed: Learning Seed Selection Strategies for Symbolic Execution from Scratch | ICSE 2025 | 이재혁 | 성균관대학교 | 
 
 ## 조직위원
 
