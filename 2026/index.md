@@ -326,6 +326,30 @@
   </div>
   <br>
 
+## 신진 연구자
+
+- [안가빈 (고려대학교)](https://agb94.github.io/)
+  <div class="speaker-block">
+    <img src="keynotes/gabin_an.avif" alt="안가빈" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>강연 주제: 추후 공고</li>
+      <li>초록: 추후 공고</li>
+      <li>연설자 소개: 추후 공고</li>
+    </ul>
+  </div>
+  <br>
+
+- [유명성 (서울시립대학교)](https://sites.google.com/view/tnslab/faculty?authuser=0)
+  <div class="speaker-block">
+    <img src="keynotes/myoungsung.jpg" alt="유명성" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>강연 주제: 추후 공고</li>
+      <li>초록: 추후 공고</li>
+      <li>연설자 소개: 추후 공고</li>
+    </ul>
+  </div>
+  <br>    
+
 ## 초청 탑티어 논문
 
 | 논문제목 | 학회 | 발표자 | 소속 |
