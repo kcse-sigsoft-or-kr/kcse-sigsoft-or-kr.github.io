@@ -357,7 +357,7 @@
 | LOSVER: Line-Level Modifiability Signal-Guided Vulnerability Detection and Classification | ASE 2025 | 남도하 | KAIST |
 | Automated Attack Synthesis for Constant Product Market Makers | ISSTA 2025 | 한수진 | KAIST |
 | An Empirical Study of Web Flaky Tests: Understanding and Unveiling DOM Event Interaction Challenges | ICST 2025 | 손정주 | 경북대학교 | 
-| Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations | ICSE 2025 | 김원회, 남호철 | KAIST |
+| Fork State-Aware Differential Fuzzing for Blockchain Consensus Implementations | ICSE 2025 | 김원회 | KAIST |
 | Collaboration failure analysis in cyber-physical system-of-systems using context fuzzy clustering | EMSE 2025 | 현상원 | KAIST |
 | Automated code-based test case reuse for software product line testing | ICST 2024 | 정필수 | 경상대학교 | 
 | Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis | ASE 2025 | 홍재민 | KAIST | 
