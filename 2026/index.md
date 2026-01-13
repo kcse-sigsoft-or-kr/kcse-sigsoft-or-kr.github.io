@@ -282,8 +282,14 @@
   </div>
   <br>
 - 2월 6일 (금): [최재식 (KAIST)](https://sailab.kaist.ac.kr/members/jaesik/)
-  - 강연 제목: 추후 공지 예정
-  - 연설자 소개: 추후 공지 예정
+  <div class="speaker-block">
+    <img src="keynotes/jaesik_choi.png" alt="최재식" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>강연 제목: <strong>설명가능 인공지능을 통한 대형 인공지능 모델의 기능 및 안전성 확인</strong></li>
+      <li>초록: 대형인공지능모델(혹은 대형언어모델, LLMs: Large Language Models)이 많은 응용 분야에 활용되고 있다. 이런 LLM의 장점과 함께 거짓답변(hallucination)과 같은 문제는 근본적인 원인 뿐만 아니라 해결이 어려운 면이 있다. 최근 설명가능 인공지능의 발전은 이런 LLM 내부를 확인하고 그 의사 결정을 명확히 하는데 기여하고 있다. 이 강의에서는 이런 설명성 기술이 LLM에 적용되는 최근 기술과 연구 동향을 소개한다.</li>
+      <li>연설자 소개: 최재식 교수는 KAIST 김재철AI대학원 석좌교수(㈜인이지 대표이사)이자 설명가능 인공지능(XAI) 연구자로, 한국공학한림원 회원으로 활동하며 산업부 제조 AI 전환(M.AX) 얼라이언스 총괄위원으로서 국가 AI 정책 수립과 제조업 AI 전환에 기여하고 있다.</li>
+    </ul>
+  </div>
 
 ## 조직위원
 
