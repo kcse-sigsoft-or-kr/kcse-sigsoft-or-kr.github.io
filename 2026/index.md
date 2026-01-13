@@ -371,15 +371,6 @@
 
 ## 특별 행사
 
-- **IITP 공청회:** IITP에서 추진 중인 AI 네이티브 SW 산업혁신기술개발 사업과 관련하여 공청회를 개최합니다. 본 공청회에서는 사업의 개요와 목표, 기대효과 등에 대해 소개하고, SW공학 전문가들의 의견을 수렴하는 시간을 가질 예정입니다.
-  <div class="speaker-block">
-    <img src="special/IITP.jpg" alt="IITP" class="speaker-photo">
-    <ul class="speaker-info">
-      <li>주제: <strong>AI 네이티브 SW 산업혁신기술개발 사업</strong></li>
-      <li>개요: 추후 공고</li>
-    </ul>
-  </div>
-
 - [태화강 국가정원 은하수길 산책](https://www.ulsan.go.kr/s/garden/bbs/view.ulsan?bbsId=BBS_0000000000000165&mId=001002001000000000&dataId=27101): 전국에 단 2개뿐인 국가정원 중 하나인 태화강 국가정원 내 은하수길을 산책하며 학회 참석자들 간의 교류와 네트워킹의 시간을 갖습니다.
   <div class="speaker-block">
     <img src="special/park.jpeg" alt="은하수길" class="special-photo">
@@ -390,6 +381,17 @@
       <li>비고: 공원 근처에 몸을 녹일 수 있는 카페와 식당이 다수 위치해 있습니다.</li>
     </ul>
   </div>  
+  <br>
+
+- **IITP 공청회:** IITP에서 추진 중인 AI 네이티브 SW 산업혁신기술개발 사업과 관련하여 공청회를 개최합니다. 본 공청회에서는 사업의 개요와 목표, 기대효과 등에 대해 소개하고, SW공학 전문가들의 의견을 수렴하는 시간을 가질 예정입니다.
+  <div class="speaker-block">
+    <img src="special/IITP.jpg" alt="IITP" class="speaker-photo">
+    <ul class="speaker-info">
+      <li>주제: <strong>AI 네이티브 SW 산업혁신기술개발 사업</strong></li>
+      <li>개요: 추후 공고</li>
+      <li>일시: 2월 5일 (학회 둘째날)</li>
+    </ul>
+  </div>
 
 ## 조직위원
 
