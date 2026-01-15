@@ -149,7 +149,7 @@
           <img src="sponsors/suresoft.png" alt="suresoft logo">
         </a>
         <a href="https://dahan.co.kr/">
-          <img src="sponsors/dahan.svg" alt="dahan logo">
+          <img src="sponsors/dahan.png" alt="dahan logo">
         </a>
         <a href="https://www.vpluslab.kr/">
           <img src="sponsors/vpluslab.png" alt="vpluslab logo">
@@ -158,7 +158,7 @@
           <img src="sponsors/formalworks.png" alt="formalworks logo">
         </a>
         <a href="https://www.tta.or.kr/">
-          <img src="sponsors/TTA.webp" alt="TTA logo">
+          <img src="sponsors/TTA.png" alt="TTA logo">
         </a>
         <a href="https://www.codemind.co.kr/">
         <img src="sponsors/codemind.png" alt="codemind logo">
