@@ -258,7 +258,7 @@
 
 - 논문 접수 마감: ~~2025년 12월 23일 (화), 12월 30일 (화)~~ <span style="color: red;">2026년 1월 13일 (화) (최종 마감)</span>
 - 튜토리얼 제안서 접수: 2025년 12월 30일 (화)
-- 심사 결과 통보: 2026년 1월 19일 (월)
+- 심사 결과 통보: 2026년 1월 20일 (화)
 - 최종 원고 제출: 2026년 1월 26일 (월)
 
 ## 논문 및 제안서 제출
@@ -383,6 +383,9 @@
 | Forcrat: Automatic I/O API Translation from C to Rust via Origin and Capability Analysis | ASE 2025 | 홍재민 | KAIST | 
 | TopSeed: Learning Seed Selection Strategies for Symbolic Execution from Scratch | ICSE 2025 | 이재혁 | 성균관대학교 | 
 | Can We Trust the Actionable Guidance from Explainable AI Techniques in Defect Prediction? | SANER 2025 | 이기찬 | 한양대학교 | 
+| Beyond pip install: Evaluating LLM agents for the automated installation of Python projects  | SANER 2025 | 유신 | KAIST | 
+| Lightweight Concolic Testing via Path-Condition Synthesis for Deep Learning Libraries  | ICSE 2025 | 김세훈 | UNIST | 
+| How Effective are Large Language Models in Generating Software Specifications?  | SANER 2025 | 류병우 | UNIST | 
 
 ## 특별 행사
 
