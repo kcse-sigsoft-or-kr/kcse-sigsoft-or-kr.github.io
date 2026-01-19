@@ -179,11 +179,12 @@
 
 | 구분 | 일반 | 학생 | 학부/주니어 |
 | --- | --- | --- | --- |
-| 사전등록(1.21) | 260,000원 | 200,000원 | 90,000원 |
+| 사전등록 <span style="color: red;">(1.21)</span> | 260,000원 | 200,000원 | 90,000원 |
 | 현장등록 | 280,000원 | 220,000원 | 110,000원 |
 
 - 한국정보과학회 회원/비회원 참가비 동일
-- 사전등록 사이트: [https://www.kiise.or.kr/conference/conf/183/](https://www.kiise.or.kr/conference/conf/183/) (2026년 1월 21일 (수)까지)
+- 사전등록 사이트: [https://www.kiise.or.kr/conference/conf/183/](https://www.kiise.or.kr/conference/conf/183/) (<span style="color: red;">2026년 1월 21일 (수)까지</span>)
+- 숙박 안내: [https://www.kiise.or.kr/conference/board/boardList.do?CC=conf&CS=183&PARENT_ID=020100](https://www.kiise.or.kr/conference/board/boardList.do?CC=conf&CS=183&PARENT_ID=020100) (<span style="color: red;">2026년 1월 21일 (수)까지</span>)
 - 참가등록문의: 한국정보과학회 문은정 차장 (Email: ejmoon@kiise.or.kr, Tel. 02-588-4002)
   - 납입증명서, 참가확인서(행사종료 후) 요청 가능
 - 기타문의
