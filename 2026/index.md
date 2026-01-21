@@ -307,9 +307,9 @@
   <div class="speaker-block">
     <img src="keynotes/sangdon_park.jpg" alt="박상돈" class="speaker-photo">
     <ul class="speaker-info">
-      <li>튜토리얼 주제: <strong>AI red teaming</strong></li>
-      <li>초록: 추후 공고</li>
-      <li>연설자 소개: 추후 공고</li>
+      <li>튜토리얼 주제: <strong>AI Red Teaming Toward AI Alignment</strong></li>
+      <li>초록: 우리는 생성형 AI가 선보이는 놀라움 속에 살고 있습니다. 성능이 뛰어난 생성형 AI는 지식 베이스, 웹 검색, 개인화된 에이전트, 예술, 코딩, 컴퓨터 보안 등 다양한 분야에서 그 가능성을 대중에게 선보이고 있습니다. 그러나 빛이 밝을수록 그림자는 더욱 짙어집니다. 생성형 AI는 환각 현상, 편향된 생성, 개인정보 침해 우려, 유해한 콘텐츠 생성 등의 문제로 비판을 받아왔습니다. 이렇게 신뢰할 수 없고 인간의 가치에 정렬되지 않은 생성형 AI에게 우리의 일상을 공유하는 것을 재고할 필요가 있습니다. 본 튜토리얼에서는 이런 생성형 AI의 문제를 적극적이고 능동적으로 평가하는 AI Red Teaming 기법의 역사 및 현재 트렌드를 공유하고자 합니다.</li>
+      <li>연설자 소개: 박상돈 박사는 POSTECH GSAI/CSE의 조교수입니다. 그의 연구 관심사는 이론부터 구현까지 아우르는 접근을 통해 인간의 가치에 정렬된 신뢰할 수 있는 AI 시스템을 설계하고, 이를 컴퓨터 보안 및 로보틱스 등 다양한 실제 응용 분야에 적용하는 데 있습니다. 그는 탑티어 머신러닝 국제학회인 NeurIPS, ICLR, ICML에서 Area Chair로 활동하고 있습니다. POSTECH에 합류하기 전에는 조지아 공과대학교(Georgia Institute of Technology)에서 박사후연구원으로 근무하였고, 2021년 펜실베이니아 대학교(University of Pennsylvania)에서 Computer & Information Science 박사 학위를 취득하였습니다.</li>
     </ul>
   </div>
   <br>
