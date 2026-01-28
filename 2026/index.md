@@ -372,7 +372,7 @@
   </div>
   <br>
 
-- 신용준 (ETRI)
+- [신용준 (ETRI)](https://yongjunshin.github.io)
   <div class="speaker-block">
     <img src="keynotes/yjshin.jpg" alt="신용준" class="speaker-photo">
     <ul class="speaker-info">
