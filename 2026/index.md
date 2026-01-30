@@ -109,7 +109,8 @@
 
 ## 공지사항
 
-- [기숙사 이용 안내 (클릭하세요)](dorm.md)
+- <a href="program.md" target="_blank" rel="noopener">KCSE 2026 프로그램 (클릭하세요)</a>
+- <a href="dorm.md" target="_blank" rel="noopener">기숙사 이용 안내 (클릭하세요)</a>
 
 ## 행사개요
 
@@ -371,7 +372,7 @@
   </div>
   <br>
 
-- 신용준 (ETRI)
+- [신용준 (ETRI)](https://yongjunshin.github.io)
   <div class="speaker-block">
     <img src="keynotes/yjshin.jpg" alt="신용준" class="speaker-photo">
     <ul class="speaker-info">
