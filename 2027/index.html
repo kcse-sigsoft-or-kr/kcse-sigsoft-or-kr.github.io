@@ -237,6 +237,20 @@
         color: #1e3a8a;
         margin-bottom: 10px;
       }
+      .cfp-theme p + p {
+        margin-top: 12px;
+      }
+      .topics-list {
+        columns: 2;
+        column-gap: 40px;
+        padding-left: 20px;
+        color: #334155;
+        line-height: 1.8;
+      }
+      .topics-list li {
+        break-inside: avoid;
+        margin-bottom: 4px;
+      }
       .info-table {
         width: 100%;
         border-collapse: collapse;
@@ -405,6 +419,9 @@
         }
         .nav-menu {
           flex-wrap: wrap;
+        }
+        .topics-list {
+          columns: 1;
         }
       }
     </style>
@@ -636,7 +653,7 @@
             ></a>
             <ul class="dropdown-menu">
               <li>
-                <a onclick="navigateTo('call-for-papers')">논문 모집 분야</a>
+                <a onclick="navigateTo('call-for-papers')">논문 모집</a>
               </li>
               <li><a onclick="navigateTo('paper-submission')">논문 접수</a></li>
               <li>
@@ -965,36 +982,86 @@
           </table>
         </section>
 
-        <!-- 7. 논문 모집 분야 -->
+        <!-- 7. 논문 모집 -->
         <section id="call-for-papers" class="page-section">
           <div class="breadcrumb">
             <span>논문 및 제안</span> &gt;
-            <span style="color: #0f172a; font-weight: 600">논문 모집 분야</span>
+            <span style="color: #0f172a; font-weight: 600">논문 모집</span>
           </div>
-          <h2 class="page-title">논문 모집 분야 (Call for Papers)</h2>
+          <h2 class="page-title">논문 모집 (Call for Papers)</h2>
+          <div class="section-card cfp-theme">
+            <h3>학술대회 주제</h3>
+            <p>
+              생성형 AI와 AI 에이전트의 빠른 발전은 소프트웨어를 개발하고
+              운영하는 방식에 큰 변화를 가져오고 있습니다. AI가 요구사항 분석,
+              설계, 구현, 테스트, 배포와 운영 등 소프트웨어 생명주기 전반에
+              활용되면서 개발자의 역할과 개발 프로세스 역시 빠르게 변화하고
+              있습니다. 이와 함께 AI를 활용한 개발 활동의 신뢰성과 품질을
+              확보하고, AI를 포함하는 소프트웨어 시스템을 효과적으로
+              설계·검증·운영하기 위한 새로운 소프트웨어공학적 원리와 기술의
+              필요성도 커지고 있습니다.
+            </p>
+            <p>
+              이번 KCSE 2027에서는 “<strong>AI-Native 지능사회를 위한 소프트웨어
+              공학 기술</strong>”을 주제로, AI 시대의 소프트웨어를 어떻게
+              설계·개발·검증·진화시킬 것인지 함께 논의하고자 합니다. AI를
+              활용한 소프트웨어공학의 혁신과 AI 기반 시스템을 위한 새로운
+              방법론, 개발자와 AI의 협업, 신뢰할 수 있는 지능형 소프트웨어 등
+              다양한 연구와 경험이 공유되는 자리가 되기를 기대합니다.
+            </p>
+          </div>
           <div class="section-card">
             <h3>모집 분야 (Topics of Interest)</h3>
             <p>
-              소프트웨어공학 분야 전반의 학술 연구 및 산업체 기술 적용 논문을
+              아래 나열된 분야를 포함하여 소프트웨어공학 전 분야의 논문을
               모집합니다.
             </p>
           </div>
-          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 16px">
-            <ul style="padding-left: 20px; color: #334155; line-height: 1.8">
-              <li>AI4SE & SE4AI (AI 기반 SE)</li>
-              <li>소프트웨어 테스팅 및 검증</li>
-              <li>정적/동적 코드 분석</li>
-              <li>소프트웨어 아키텍처 및 설계</li>
-              <li>자율주행 및 임베디드 SW</li>
-            </ul>
-            <ul style="padding-left: 20px; color: #334155; line-height: 1.8">
-              <li>요구사항 공학 (Requirements)</li>
-              <li>DevOps 및 지속적 통합(CI/CD)</li>
-              <li>소프트웨어 보안 및 신뢰성</li>
-              <li>소프트웨어 유지를 위한 공학</li>
-              <li>블록체인 및 오픈소스 공학</li>
-            </ul>
-          </div>
+          <ul class="topics-list">
+            <li>AI for Software Engineering (AI4SE)</li>
+            <li>Software Engineering for AI (SE4AI)</li>
+            <li>Generative AI, LLMs, and Agentic Software Engineering</li>
+            <li>MLOps, LLMOps, AIOps, and AI System Operations</li>
+            <li>Agile Methodologies</li>
+            <li>Autonomic and Self-Adaptive Systems</li>
+            <li>Blockchain-based Software Systems</li>
+            <li>Cloud, Microservices, and Service-Oriented Systems</li>
+            <li>Component-based Software Engineering</li>
+            <li>Configuration Management and Deployment</li>
+            <li>Debugging, Fault Localization, and Repair</li>
+            <li>Distributed and Collaborative Software Engineering</li>
+            <li>Software Dependability, Safety, and Reliability</li>
+            <li>Embedded and Real-Time Systems</li>
+            <li>Empirical Software Engineering</li>
+            <li>End-user Software Engineering</li>
+            <li>Formal Methods</li>
+            <li>Green and Sustainable Software Engineering</li>
+            <li>Human Factors and Social Aspects of Software Engineering</li>
+            <li>IoT and Cyber-Physical Systems</li>
+            <li>Middleware, Frameworks, and APIs</li>
+            <li>Mining Software Repositories</li>
+            <li>Mobile, Ubiquitous, and Pervasive Software Systems</li>
+            <li>Model-Driven and Domain-Specific Engineering</li>
+            <li>Parallel, Distributed, and Concurrent Systems</li>
+            <li>Programming Languages and Systems</li>
+            <li>Program Analysis and Synthesis</li>
+            <li>Refactoring</li>
+            <li>Requirements Engineering</li>
+            <li>Reverse Engineering</li>
+            <li>Search-based Software Engineering</li>
+            <li>Security, Privacy, and Trust</li>
+            <li>Software Architecture, Modeling, and Design</li>
+            <li>Software Comprehension, Visualization, and Traceability</li>
+            <li>Software Economics and Metrics</li>
+            <li>Software Engineering Education</li>
+            <li>Software Evolution and Maintenance</li>
+            <li>Software Performance Engineering</li>
+            <li>Software Process and Standards</li>
+            <li>Software Reuse</li>
+            <li>Software Supply Chain and Ecosystem Engineering</li>
+            <li>System of Systems</li>
+            <li>Testing, Verification, and Validation</li>
+          </ul>
         </section>
 
         <!-- 8. 논문 접수 -->
@@ -1234,7 +1301,7 @@
               </li>
               <li>
                 <a onclick="navigateTo('call-for-papers')"
-                  >논문 모집 분야 (Call for Papers)</a
+                  >논문 모집 (Call for Papers)</a
                 >
               </li>
               <li>
