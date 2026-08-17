@@ -1,0 +1,39 @@
+---
+---
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{{ page.title }} | KCSE 2027</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto+Slab:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="{{ '/2027/assets/css/style.css' | relative_url }}"
+    />
+    <script
+      src="{{ '/2027/assets/js/site.js' | relative_url }}"
+      defer
+    ></script>
+  </head>
+  <body>
+    {% include kcse-2027/hero.html %}
+    {% include kcse-2027/navigation.html %}
+
+    <div class="main-container">
+      <main class="content-area">{{ content }}</main>
+      {% include kcse-2027/sidebar.html %}
+    </div>
+
+    {% include kcse-2027/footer.html %}
+  </body>
+</html>
