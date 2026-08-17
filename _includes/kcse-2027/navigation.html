@@ -1,0 +1,175 @@
+<nav class="nav-bar" aria-label="주요 메뉴">
+  <div class="nav-container">
+    <ul class="nav-menu">
+      <li class="nav-item">
+        <a
+          class="nav-link{% if page.nav_group == 'intro' %} active{% endif %}"
+          href="{{ '/2027/index.html' | relative_url }}"
+          >소개
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i
+        ></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              href="{{ '/2027/index.html' | relative_url }}"
+              {% if page.nav_id == 'overview' %}class="active"{% endif %}
+              >행사개요</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/introduction/welcome.html' | relative_url }}"
+              {% if page.nav_id == 'welcome' %}class="active"{% endif %}
+              >모시는 글</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/introduction/location.html' | relative_url }}"
+              {% if page.nav_id == 'location' %}class="active"{% endif %}
+              >오시는 길</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/introduction/attractions.html' | relative_url }}"
+              {% if page.nav_id == 'attractions' %}class="active"{% endif %}
+              >근처 가볼만한 곳</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link{% if page.nav_group == 'attend' %} active{% endif %}"
+          href="{{ '/2027/attendance/registration.html' | relative_url }}"
+          >참가안내
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i
+        ></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              href="{{ '/2027/attendance/registration.html' | relative_url }}"
+              {% if page.nav_id == 'registration' %}class="active"{% endif %}
+              >참가 등록</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/attendance/dates.html' | relative_url }}"
+              {% if page.nav_id == 'dates' %}class="active"{% endif %}
+              >주요 일정</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link{% if page.nav_group == 'papers' %} active{% endif %}"
+          href="{{ '/2027/papers/call-for-papers.html' | relative_url }}"
+          >논문 및 제안
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i
+        ></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              href="{{ '/2027/papers/call-for-papers.html' | relative_url }}"
+              {% if page.nav_id == 'call-for-papers' %}class="active"{% endif %}
+              >논문 모집</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/papers/paper-submission.html' | relative_url }}"
+              {% if page.nav_id == 'paper-submission' %}class="active"{% endif %}
+              >논문 접수</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/papers/proposals.html' | relative_url }}"
+              {% if page.nav_id == 'proposals' %}class="active"{% endif %}
+              >튜토리얼/워크숍 제안</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/papers/invited-papers.html' | relative_url }}"
+              {% if page.nav_id == 'invited-papers' %}class="active"{% endif %}
+              >초청 우수 논문</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/papers/awards.html' | relative_url }}"
+              {% if page.nav_id == 'awards' %}class="active"{% endif %}
+              >KCSE 2027 논문상</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link{% if page.nav_group == 'program' %} active{% endif %}"
+          href="{{ '/2027/program/keynote.html' | relative_url }}"
+          >프로그램
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i
+        ></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              href="{{ '/2027/program/keynote.html' | relative_url }}"
+              {% if page.nav_id == 'keynote' %}class="active"{% endif %}
+              >기조연설</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/program/tutorials.html' | relative_url }}"
+              {% if page.nav_id == 'tutorials' %}class="active"{% endif %}
+              >튜토리얼</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/program/young-researchers.html' | relative_url }}"
+              {% if page.nav_id == 'young-researchers' %}class="active"{% endif %}
+              >신진 연구자</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/program/special-events.html' | relative_url }}"
+              {% if page.nav_id == 'special-events' %}class="active"{% endif %}
+              >특별 행사</a
+            >
+          </li>
+        </ul>
+      </li>
+      <li class="nav-item">
+        <a
+          class="nav-link{% if page.nav_group == 'committee' %} active{% endif %}"
+          href="{{ '/2027/committee/organizing-committee.html' | relative_url }}"
+          >위원회
+          <i class="fa-solid fa-chevron-down" aria-hidden="true"></i
+        ></a>
+        <ul class="dropdown-menu">
+          <li>
+            <a
+              href="{{ '/2027/committee/organizing-committee.html' | relative_url }}"
+              {% if page.nav_id == 'organizing-committee' %}class="active"{% endif %}
+              >조직위원</a
+            >
+          </li>
+          <li>
+            <a
+              href="{{ '/2027/committee/program-committee.html' | relative_url }}"
+              {% if page.nav_id == 'program-committee' %}class="active"{% endif %}
+              >학술위원</a
+            >
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</nav>
