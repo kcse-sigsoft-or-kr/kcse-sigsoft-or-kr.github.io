@@ -425,6 +425,10 @@ body {
   color: #2563eb;
 }
 
+.nowrap {
+  white-space: nowrap;
+}
+
 .conference-date i {
   color: #dc2626;
 }
