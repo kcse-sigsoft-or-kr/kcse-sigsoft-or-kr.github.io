@@ -1,0 +1,38 @@
+{
+  "events": {
+    "paper_submission": {
+      "label": "논문 제출 마감",
+      "start": "2026-12-28"
+    },
+    "proposals": {
+      "label": "튜토리얼/워크숍 제출 마감",
+      "start": "2026-12-28"
+    },
+    "registration": {
+      "label": "사전등록 기간",
+      "start": "2026-12-14",
+      "end": "2027-01-17"
+    },
+    "notification": {
+      "label": "논문 심사 결과 통보",
+      "start": "2027-01-15"
+    },
+    "conference": {
+      "label": "학술대회 개최",
+      "start": "2027-01-27",
+      "end": "2027-01-29"
+    },
+    "banquet": {
+      "label": "환영 만찬",
+      "start": "2027-01-28",
+      "time": "18:00"
+    }
+  },
+  "important_dates": [
+    "paper_submission",
+    "proposals",
+    "registration",
+    "notification",
+    "conference"
+  ]
+}

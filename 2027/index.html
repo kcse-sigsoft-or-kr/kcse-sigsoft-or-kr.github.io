@@ -1,16 +1,30 @@
----
-layout: kcse-2027
-title: 행사개요
-nav_group: intro
-nav_id: overview
----
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>행사개요 | KCSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto+Slab:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script src="assets/js/site.js" defer></script>
+  </head>
+  <body data-nav-group="intro" data-nav-id="overview">
+    <div data-component="hero"></div>
+    <div data-component="navigation"></div>
+    <p id="site-status" role="status" hidden></p>
+    <noscript>일정과 메뉴를 보려면 브라우저에서 JavaScript를 활성화해 주세요.</noscript>
+    <div class="main-container">
+      <main class="content-area">
 <section id="overview">
   <div class="breadcrumb">
     <span>소개</span> &gt; <span class="breadcrumb-current">행사개요</span>
   </div>
   <h1 class="page-title">행사개요 (Overview)</h1>
   <div class="section-card">
-    <h2>KCSE 2027: 제29회 한국 소프트웨어공학 학술대회</h2>
+    <h2>KCSE <span data-site="year"></span>: 제<span data-site="edition"></span>회 한국 소프트웨어공학 학술대회</h2>
     <p>
       한국 소프트웨어공학 학술대회는 국내 소프트웨어공학 분야의 대표적인
       학술행사로서 산업계, 학계, 연구계의 최신 연구 성과 발표와 기술 교류의
@@ -20,15 +34,18 @@ nav_id: overview
   <table class="info-table">
     <tr>
       <th>행사명</th>
-      <td>제29회 한국 소프트웨어공학 학술대회 (KCSE 2027)</td>
+      <td>제<span data-site="edition"></span>회 한국 소프트웨어공학 학술대회 (KCSE <span data-site="year"></span>)</td>
     </tr>
     <tr>
       <th>일시</th>
-      <td>2027년 1월 27일(수) ~ 1월 29일(금) [3일간]</td>
+      <td>
+        <span data-schedule="conference" data-schedule-duration></span>
+
+      </td>
     </tr>
     <tr>
       <th>장소</th>
-      <td>강원도 평창 휘닉스 파크</td>
+      <td><span data-site="venue_full"></span></td>
     </tr>
     <tr>
       <th>주최/주관</th>
@@ -36,3 +53,9 @@ nav_id: overview
     </tr>
   </table>
 </section>
+      </main>
+      <div data-component="sidebar"></div>
+    </div>
+    <div data-component="footer"></div>
+  </body>
+</html>

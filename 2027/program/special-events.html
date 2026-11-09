@@ -1,10 +1,23 @@
----
-layout: kcse-2027
-title: 특별 행사
-nav_group: program
-nav_id: special-events
----
-
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>특별 행사 | KCSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto+Slab:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/site.js" defer></script>
+  </head>
+  <body data-nav-group="program" data-nav-id="special-events">
+    <div data-component="hero"></div>
+    <div data-component="navigation"></div>
+    <p id="site-status" role="status" hidden></p>
+    <noscript>일정과 메뉴를 보려면 브라우저에서 JavaScript를 활성화해 주세요.</noscript>
+    <div class="main-container">
+      <main class="content-area">
 <section id="special-events">
   <div class="breadcrumb">
     <span>프로그램</span> &gt; <span class="breadcrumb-current">특별 행사</span>
@@ -13,8 +26,14 @@ nav_id: special-events
   <div class="section-card">
     <h2>만찬 및 네트워크 세션</h2>
     <p>
-      <strong>환영 만찬 (Banquet):</strong> 2027년 1월 28일(목) 저녁 18:00
-      휘닉스 파크 포레스트홀
+      <strong>환영 만찬 (Banquet):</strong> <span data-schedule="banquet"></span>
+      <span data-site="banquet_venue"></span>
     </p>
   </div>
 </section>
+      </main>
+      <div data-component="sidebar"></div>
+    </div>
+    <div data-component="footer"></div>
+  </body>
+</html>

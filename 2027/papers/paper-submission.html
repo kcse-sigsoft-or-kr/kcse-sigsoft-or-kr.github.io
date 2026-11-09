@@ -1,9 +1,23 @@
----
-layout: kcse-2027
-title: 논문 접수
-nav_group: papers
-nav_id: paper-submission
----
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>논문 접수 | KCSE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Roboto+Slab:wght@400;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <script src="../assets/js/site.js" defer></script>
+  </head>
+  <body data-nav-group="papers" data-nav-id="paper-submission">
+    <div data-component="hero"></div>
+    <div data-component="navigation"></div>
+    <p id="site-status" role="status" hidden></p>
+    <noscript>일정과 메뉴를 보려면 브라우저에서 JavaScript를 활성화해 주세요.</noscript>
+    <div class="main-container">
+      <main class="content-area">
 <section id="paper-submission">
   <div class="breadcrumb">
     <span>논문 및 제안</span> &gt;
@@ -13,7 +27,7 @@ nav_id: paper-submission
   <div class="section-card">
     <h2>논문 작성 및 제출 안내</h2>
     <p>
-      논문 제출 마감: <strong>2026년 12월 28일 (월)</strong>
+      논문 제출 마감: <strong><span data-schedule="paper_submission"></span></strong>
     </p>
     <p>온라인 접수 시스템을 통하여 논문(PDF)을 제출해 주시기 바랍니다.</p>
   </div>
@@ -21,12 +35,12 @@ nav_id: paper-submission
     <li>
       논문 양식:
       <a
-        href="{{ '/2027/assets/files/KCSE-2027-Word-templates.zip' | relative_url }}"
+        data-link="assets/files/KCSE-2027-Word-templates.zip"
         download
         >Word 다운로드</a
       >,
       <a
-        href="{{ '/2027/assets/files/KCSE-2027-LaTeX-template.zip' | relative_url }}"
+        data-link="assets/files/KCSE-2027-LaTeX-template.zip"
         download
         >LaTeX 다운로드</a
       >
@@ -59,9 +73,15 @@ nav_id: paper-submission
     </li>
   </ol>
   <p style="margin-top: 28px">
-    <a class="btn-action" href="https://easychair.org/my/conference?conf=kcse2027" target="_blank" rel="noopener noreferrer">
+    <a class="btn-action" data-site-url="submission_url" target="_blank" rel="noopener noreferrer">
       <i class="fa-solid fa-upload" aria-hidden="true"></i> 논문 제출 시스템
       바로가기
     </a>
   </p>
 </section>
+      </main>
+      <div data-component="sidebar"></div>
+    </div>
+    <div data-component="footer"></div>
+  </body>
+</html>

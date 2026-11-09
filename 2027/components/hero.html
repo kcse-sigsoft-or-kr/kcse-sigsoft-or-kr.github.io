@@ -7,10 +7,11 @@
     role="img"
     aria-labelledby="hero-title hero-description"
   >
-    <title id="hero-title">KCSE 2027</title>
+    <title id="hero-title">KCSE <tspan data-site="year"></tspan></title>
     <desc id="hero-description">
-      제29회 한국 소프트웨어공학 학술대회, 2027년 1월 27일부터 29일까지 평창
-      휘닉스 파크에서 개최
+      제<tspan data-site="edition"></tspan>회 한국 소프트웨어공학 학술대회,
+      <tspan data-schedule="conference"></tspan>
+      <tspan data-site="venue"></tspan>에서 개최
     </desc>
     <defs>
       <linearGradient id="winterSkyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
@@ -339,7 +340,7 @@
         fill="#0f172a"
         letter-spacing="-1"
       >
-        <a href="https://kcse.sigsoft.or.kr/2027/">KCSE 2027</a>
+        <a data-link="">KCSE <tspan data-site="year"></tspan></a>
       </text>
       <text
         x="257"
@@ -350,7 +351,7 @@
         fill="#1e3a8a"
         letter-spacing="0.5"
       >
-        제29회 한국 소프트웨어공학 학술대회
+        제<tspan data-site="edition"></tspan>회 한국 소프트웨어공학 학술대회
       </text>
     </g>
 
@@ -364,7 +365,7 @@
         fill="#0f172a"
         text-anchor="end"
       >
-        29th Korea Conference on Software Engineering
+        <tspan data-site="edition_ordinal"></tspan> Korea Conference on Software Engineering
       </text>
       <text
         x="166"
@@ -375,7 +376,7 @@
         fill="#1e3a8a"
         text-anchor="end"
       >
-        ❄️ 평창 휘닉스 파크 | 2027. 01. 27 (수) – 01. 29 (금)
+        ❄️ <tspan data-site="venue"></tspan> | <tspan data-schedule="conference" data-schedule-format="banner"></tspan>
       </text>
     </g>
 
